@@ -1,0 +1,24 @@
+[project]
+name = "awoodii-formate-modelling"
+version = "0.1.0"
+description = "A. woodii fitted D-stat NADH/NAD lower-bound scan and bottleneck analysis"
+requires-python = "==3.10.*"
+dependencies = [
+    "cnapy==1.2.3",
+    "cobra",
+    "cobrak==0.0.11",
+    "cplex==22.1.1.0",
+    "docplex",
+    "matplotlib",
+    "numpy",
+    "openpyxl",
+    "pandas",
+    "plotly",
+    "pydantic>=2",
+    "pyomo==6.9.4",
+    "PyYAML",
+    "setuptools<81",
+]
+
+[tool.uv]
+package = false

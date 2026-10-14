@@ -1,0 +1,3757 @@
+{
+    "ACt2rpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACt2rpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "AKGDH_FWD": {
+        "dG0": -7.557139931730605,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "AKGDH_REV": {
+        "dG0": 7.557139931730607,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "CA2tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CA2tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CLt3_2pp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CLtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CLtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CO2tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CO2tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CO2tpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CO2tpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "COBALT2tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "COBALT2tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "COBALT2tpp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CU2tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CU2tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CU2tpp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "D_LACt2pp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "D_LACt2pp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "D_LACtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "D_LACtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "DALAt2pp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ETOHtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ETOHtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ETOHtrpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ETOHtrpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FE2tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FE2tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FE2tpp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FE3abcpp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FE3tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FE3tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FORtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FORtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "GLCt2pp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "GLCtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "GLCtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "GLYCtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "GLYCtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "GLYCtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "GLYCtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "H2tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "H2tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "H2tpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "H2tpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "Kt2pp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "Ktex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "Ktex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MEOHtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MEOHtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MEOHtrpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MEOHtrpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MG2t3_2pp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MG2t3_2pp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MG2tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MG2tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MN2tpp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MNtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MNtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MOBDabcpp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MOBDtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MOBDtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "MPTG": {
+        "dG0": -1603.582085679174,
+        "uncertainty": 1111749.0347762327,
+        "num_compartments": 2
+    },
+    "NH4tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "NH4tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "NH4tpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "NH4tpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "NI2tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "NI2tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "NI2tpp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "PIt2rpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "PIt2rpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "PItex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "PItex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "SO4t2pp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "SO4tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "SO4tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ZN2tpp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "Zn2tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "Zn2tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FORt2pp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FORt2pp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "LDHfd_D_FWD": {
+        "dG0": -0.026749905066133728,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "LDHfd_D_REV": {
+        "dG0": 0.026749905066137836,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "PFOR_FWD": {
+        "dG0": -13.569549150208953,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "PFOR_REV": {
+        "dG0": 13.569549150208966,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "NFN_FWD": {
+        "dG0": -20.653001529972805,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "NFN_REV": {
+        "dG0": 20.653001529971903,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "NAtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "NAtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "RNF_na_FWD": {
+        "dG0": 13.993156124957043,
+        "uncertainty": 100.0,
+        "num_compartments": 2
+    },
+    "RNF_na_REV": {
+        "dG0": -13.993156124957043,
+        "uncertainty": 100.0,
+        "num_compartments": 2
+    },
+    "ATPS_na_FWD": {
+        "dG0": -27.531482370152503,
+        "uncertainty": 100.0,
+        "num_compartments": 2
+    },
+    "ATPS_na_REV": {
+        "dG0": 27.53148237015256,
+        "uncertainty": 100.0,
+        "num_compartments": 2
+    },
+    "HydABCD_FWD": {
+        "dG0": -56.594181409755834,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "HydABCD_REV": {
+        "dG0": 56.59418140975582,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "FRUtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FRUtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FRUpts_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "FRUpts_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "COtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "COtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "COtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "COtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CODH4_FWD": {
+        "dG0": 28.320358268943558,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "CODH4_REV": {
+        "dG0": -28.320358268943533,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "CITMtrpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CITMtrpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CITMtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CITMtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACETONEtrpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACETONEtrpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACETONEtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACETONEtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "2PPOHtrpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "2PPOHtrpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "2PPOHtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "2PPOHtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CAFtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CAFtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CAFtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CAFtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HCAtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HCAtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HCAtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HCAtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CCR_FWD": {
+        "dG0": -35.41878419370722,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "CCR_REV": {
+        "dG0": 35.418784193706735,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "ACALDtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACALDtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACALDtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACALDtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ALAtN1_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ALAtN1_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ALAtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ALAtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTDDtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTDDtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTDDtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTDDtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACTNtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACTNtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACTNtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACTNtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "12PPDStpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "12PPDStpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "12PPDStex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "12PPDStex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "PPAt2pp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "PPAt2pp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "PPAtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "PPAtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "DHAtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "DHAtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "DHAtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "DHAtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "GLYCOLtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "GLYCOLtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "GLYCOLtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "GLYCOLtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BETBCC_FWD": {
+        "dG0": -2.85,
+        "uncertainty": 999.9,
+        "num_compartments": 2,
+        "notes": "Manually curated value"
+    },
+    "BETBCC_REV": {
+        "dG0": 2.85,
+        "uncertainty": 999.9,
+        "num_compartments": 2,
+        "notes": "Manually curated value"
+    },
+    "BETtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BETtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "DMGLYtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "DMGLYtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "DMGLYtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "DMGLYtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BHBtpp": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "RHA40tex": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTD13tpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTD13tpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTD13tex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTD13tex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "PBUTT_HET_FWD": {
+        "dG0": -29.976322504791742,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "PBUTT_HET_REV": {
+        "dG0": 29.976322504791728,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "BUTtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BUTtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BUTtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BUTtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BUTAOR_HET_FWD": {
+        "dG0": 29.180411356996505,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "BUTAOR_HET_REV": {
+        "dG0": -29.180411356996512,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "BTOHtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTOHtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTOHtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTOHtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HXAtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HXAtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HXAtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HXAtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HEXAOR_HET_FWD": {
+        "dG0": 23.403032020113372,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "HEXAOR_HET_REV": {
+        "dG0": -23.403032020113354,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "HEXOLtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HEXOLtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HEXOLtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "HEXOLtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTNNtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTNNtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTNNtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "BTNNtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "2BTOLtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "2BTOLtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "2BTOLtex_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "2BTOLtex_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "ACALDAOR_HET_FWD": {
+        "dG0": 34.98018035508828,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "ACALDAOR_HET_REV": {
+        "dG0": -34.98018035508822,
+        "uncertainty": 100.0,
+        "num_compartments": 1
+    },
+    "NA1Hth": {
+        "dG0": -2.85,
+        "uncertainty": 999.9,
+        "num_compartments": 2,
+        "notes": "Manually curated value"
+    },
+    "NA1Htpp": {
+        "dG0": -34.65044584490701,
+        "uncertainty": 100.0,
+        "num_compartments": 2
+    },
+    "CAtpp_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "CAtpp_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 2
+    },
+    "PPA_na": {
+        "dG0": 0.8683968862120821,
+        "uncertainty": 100.0,
+        "num_compartments": 2
+    },
+    "5DOAN": {
+        "dG0": -13.01612597772035,
+        "uncertainty": -0.3024277506601904,
+        "num_compartments": 1
+    },
+    "A5PISO_FWD": {
+        "dG0": -2.4415321734225586,
+        "uncertainty": 0.0001245938967060436,
+        "num_compartments": 1
+    },
+    "A5PISO_REV": {
+        "dG0": 2.4415321734225586,
+        "uncertainty": -0.0001245938967060436,
+        "num_compartments": 1
+    },
+    "ACACT1r_HET_FWD": {
+        "dG0": 24.96679514822631,
+        "uncertainty": 3.702805433786205e-05,
+        "num_compartments": 1
+    },
+    "ACACT1r_HET_REV": {
+        "dG0": -24.966795148226993,
+        "uncertainty": -3.702805433791756e-05,
+        "num_compartments": 1
+    },
+    "ACACT2r_HET_FWD": {
+        "dG0": 30.430436146605643,
+        "uncertainty": -0.03687969169850386,
+        "num_compartments": 1
+    },
+    "ACACT2r_HET_REV": {
+        "dG0": -30.430436146605643,
+        "uncertainty": 0.036879691698503914,
+        "num_compartments": 1
+    },
+    "ACALD_FWD": {
+        "dG0": -20.67776918543086,
+        "uncertainty": 0.004080163838370732,
+        "num_compartments": 1
+    },
+    "ACALD_REV": {
+        "dG0": 20.677769185430407,
+        "uncertainty": -0.004080163838370732,
+        "num_compartments": 1
+    },
+    "ACCOAC": {
+        "dG0": -9.09767005687089,
+        "uncertainty": 0.08836648400557312,
+        "num_compartments": 1
+    },
+    "ACGK": {
+        "dG0": 24.665909535786227,
+        "uncertainty": -0.14522744678432686,
+        "num_compartments": 1
+    },
+    "ACGS": {
+        "dG0": -25.724363018043732,
+        "uncertainty": 0.04478362967639887,
+        "num_compartments": 1
+    },
+    "ACHBS": {
+        "dG0": -18.297785388835848,
+        "uncertainty": -0.16380561491156734,
+        "num_compartments": 1
+    },
+    "ACKr_FWD": {
+        "dG0": 13.990414860694386,
+        "uncertainty": -9.620823723041725e-05,
+        "num_compartments": 1
+    },
+    "ACKr_REV": {
+        "dG0": -13.9904148606945,
+        "uncertainty": 9.620823723041714e-05,
+        "num_compartments": 1
+    },
+    "ACLS": {
+        "dG0": -27.018213699826276,
+        "uncertainty": -0.1318986497795041,
+        "num_compartments": 1
+    },
+    "ACODA": {
+        "dG0": -7.141061429359013,
+        "uncertainty": -0.04416767893135981,
+        "num_compartments": 1
+    },
+    "ACONTa_FWD": {
+        "dG0": 8.469446418863953,
+        "uncertainty": 0.0013882637009410845,
+        "num_compartments": 1
+    },
+    "ACONTa_REV": {
+        "dG0": -8.469446418863868,
+        "uncertainty": -0.001388263700941085,
+        "num_compartments": 1
+    },
+    "ACONTb_FWD": {
+        "dG0": -1.623067614496989,
+        "uncertainty": -0.001227389575445013,
+        "num_compartments": 1
+    },
+    "ACONTb_REV": {
+        "dG0": 1.6230676144970744,
+        "uncertainty": 0.0012273895754450126,
+        "num_compartments": 1
+    },
+    "ACOTA_FWD": {
+        "dG0": -3.2232906486289608,
+        "uncertainty": 0.0485655832850751,
+        "num_compartments": 1
+    },
+    "ACOTA_REV": {
+        "dG0": 3.2232906486290744,
+        "uncertainty": -0.048565583285075105,
+        "num_compartments": 1
+    },
+    "ADCL": {
+        "dG0": -91.01923873199192,
+        "uncertainty": 2.0988658406169813,
+        "num_compartments": 1
+    },
+    "ADCS": {
+        "dG0": -18.06151096497183,
+        "uncertainty": 0.00029275513103491275,
+        "num_compartments": 1
+    },
+    "ADK1_FWD": {
+        "dG0": 0.334459160192182,
+        "uncertainty": 5.819220193617556e-05,
+        "num_compartments": 1
+    },
+    "ADK1_REV": {
+        "dG0": -0.334459160192182,
+        "uncertainty": -5.819220193617556e-05,
+        "num_compartments": 1
+    },
+    "ADNK1": {
+        "dG0": -15.06944488130705,
+        "uncertainty": 0.002599212568185059,
+        "num_compartments": 1
+    },
+    "ADSK": {
+        "dG0": -17.41478349071923,
+        "uncertainty": -0.08944077485179018,
+        "num_compartments": 1
+    },
+    "ADSL1r_FWD": {
+        "dG0": 16.21911003929867,
+        "uncertainty": 0.00038738948474629055,
+        "num_compartments": 1
+    },
+    "ADSL1r_REV": {
+        "dG0": -16.219110039298698,
+        "uncertainty": -0.000387389484746291,
+        "num_compartments": 1
+    },
+    "ADSL2r_FWD": {
+        "dG0": 23.87841796779398,
+        "uncertainty": 3.4490639511108867e-15,
+        "num_compartments": 1
+    },
+    "ADSL2r_REV": {
+        "dG0": -23.878417967794007,
+        "uncertainty": -3.552713678800501e-15,
+        "num_compartments": 1
+    },
+    "ADSS": {
+        "dG0": -0.5731927280926072,
+        "uncertainty": 0.0015495579389905824,
+        "num_compartments": 1
+    },
+    "AGPR_FWD": {
+        "dG0": 4.482110058042963,
+        "uncertainty": 0.010802149123600335,
+        "num_compartments": 1
+    },
+    "AGPR_REV": {
+        "dG0": -4.482110058041904,
+        "uncertainty": -0.010802149123600117,
+        "num_compartments": 1
+    },
+    "AHCYSNS": {
+        "dG0": -16.368234760269388,
+        "uncertainty": 0.010038958185080105,
+        "num_compartments": 1
+    },
+    "AICART_FWD": {
+        "dG0": 12.748996928667452,
+        "uncertainty": -0.5151245121898933,
+        "num_compartments": 1
+    },
+    "AICART_REV": {
+        "dG0": -12.748996928667225,
+        "uncertainty": 0.5151245121898937,
+        "num_compartments": 1
+    },
+    "AIRC2": {
+        "dG0": -56.38108229286965,
+        "uncertainty": 0.6243740367974141,
+        "num_compartments": 1
+    },
+    "AIRC3_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 0.6587969077462776,
+        "num_compartments": 1
+    },
+    "AIRC3_REV": {
+        "dG0": 0.0,
+        "uncertainty": -0.6587969077462776,
+        "num_compartments": 1
+    },
+    "ALAALAr_FWD": {
+        "dG0": -27.96162214223019,
+        "uncertainty": -0.13057913651681394,
+        "num_compartments": 1
+    },
+    "ALAALAr_REV": {
+        "dG0": 27.961622142230226,
+        "uncertainty": 0.13057913651681394,
+        "num_compartments": 1
+    },
+    "ALAR_FWD": {
+        "dG0": -0.04097706781766419,
+        "uncertainty": -2.4521716039246563e-06,
+        "num_compartments": 1
+    },
+    "ALAR_REV": {
+        "dG0": 0.04097706781766419,
+        "uncertainty": 2.4521716039246563e-06,
+        "num_compartments": 1
+    },
+    "ALCD2x_FWD": {
+        "dG0": 18.062499174643563,
+        "uncertainty": 0.00013735449561802504,
+        "num_compartments": 1
+    },
+    "ALCD2x_REV": {
+        "dG0": -18.062499174643563,
+        "uncertainty": -0.00013735449561802504,
+        "num_compartments": 1
+    },
+    "AMAOTr_FWD": {
+        "dG0": -1.21544426574593,
+        "uncertainty": -6.661338147750939e-16,
+        "num_compartments": 1
+    },
+    "AMAOTr_REV": {
+        "dG0": 1.2154442657461573,
+        "uncertainty": 6.661338147750939e-16,
+        "num_compartments": 1
+    },
+    "AMPMS2": {
+        "dG0": -183.09330174286853,
+        "uncertainty": -0.01586878840478018,
+        "num_compartments": 1
+    },
+    "ANPRT": {
+        "dG0": -62.81328892731574,
+        "uncertainty": 0.4675611001926978,
+        "num_compartments": 1
+    },
+    "ANS": {
+        "dG0": -109.0817914786023,
+        "uncertainty": 2.0991585957480163,
+        "num_compartments": 1
+    },
+    "APRAUR": {
+        "dG0": -25.278593093993095,
+        "uncertainty": -0.11435993780311282,
+        "num_compartments": 1
+    },
+    "ARGSL_FWD": {
+        "dG0": -9.629842991601691,
+        "uncertainty": 0.23742214948924287,
+        "num_compartments": 1
+    },
+    "ARGSL_REV": {
+        "dG0": 9.629842991601663,
+        "uncertainty": -0.23742214948924287,
+        "num_compartments": 1
+    },
+    "ARGSS": {
+        "dG0": 16.877125823899064,
+        "uncertainty": -0.23742214948924892,
+        "num_compartments": 1
+    },
+    "ASAD_FWD": {
+        "dG0": -24.206215565489174,
+        "uncertainty": -6.439293542825908e-15,
+        "num_compartments": 1
+    },
+    "ASAD_REV": {
+        "dG0": 24.206215565490233,
+        "uncertainty": 6.434956734135966e-15,
+        "num_compartments": 1
+    },
+    "ASNS2": {
+        "dG0": -25.674931986674494,
+        "uncertainty": 0.0024849792509852604,
+        "num_compartments": 1
+    },
+    "ASP1DC": {
+        "dG0": -16.89167505238737,
+        "uncertainty": -0.0023955958939449835,
+        "num_compartments": 1
+    },
+    "ASPCT": {
+        "dG0": -22.468439909641027,
+        "uncertainty": -1.1384990172835785e-14,
+        "num_compartments": 1
+    },
+    "ASPK_FWD": {
+        "dG0": 21.8484192944087,
+        "uncertainty": -7.0456878178970506e-15,
+        "num_compartments": 1
+    },
+    "ASPK_REV": {
+        "dG0": -21.84841929440904,
+        "uncertainty": 7.045579397679802e-15,
+        "num_compartments": 1
+    },
+    "ASPO5": {
+        "dG0": 0.07020150381234203,
+        "uncertainty": 0.1187377859430784,
+        "num_compartments": 1
+    },
+    "ASPTA_FWD": {
+        "dG0": 2.835696904678784,
+        "uncertainty": -2.9250968132145394e-05,
+        "num_compartments": 1
+    },
+    "ASPTA_REV": {
+        "dG0": -2.835696904678798,
+        "uncertainty": 2.9250968132145665e-05,
+        "num_compartments": 1
+    },
+    "ATPM": {
+        "dG0": -29.64175327394397,
+        "uncertainty": 0.00047681174402198784,
+        "num_compartments": 1
+    },
+    "ATPPRT": {
+        "dG0": 0.0,
+        "uncertainty": 0.006689011837626717,
+        "num_compartments": 1
+    },
+    "BPNT": {
+        "dG0": -7.672331278530315,
+        "uncertainty": -0.07950698960770361,
+        "num_compartments": 1
+    },
+    "CBMKr_FWD": {
+        "dG0": 0.0,
+        "uncertainty": -0.005112166150396127,
+        "num_compartments": 1
+    },
+    "CBMKr_REV": {
+        "dG0": 0.0,
+        "uncertainty": 0.0051121661503961266,
+        "num_compartments": 1
+    },
+    "CDPMEK": {
+        "dG0": -9.579787988854036,
+        "uncertainty": -0.029222021710884043,
+        "num_compartments": 1
+    },
+    "CHORM": {
+        "dG0": -48.66944600768517,
+        "uncertainty": -0.06301871496377442,
+        "num_compartments": 1
+    },
+    "CHORS": {
+        "dG0": -45.56054811293907,
+        "uncertainty": 0.468132165925238,
+        "num_compartments": 1
+    },
+    "CHRPL": {
+        "dG0": -112.94315197260806,
+        "uncertainty": 2.0791898898244137,
+        "num_compartments": 1
+    },
+    "CS": {
+        "dG0": -38.761241776173165,
+        "uncertainty": 0.0005755481893413572,
+        "num_compartments": 1
+    },
+    "CTPS2": {
+        "dG0": -20.964551176575497,
+        "uncertainty": -0.005100969907986144,
+        "num_compartments": 1
+    },
+    "CYSS": {
+        "dG0": -51.28258179572629,
+        "uncertainty": 0.006910817221675713,
+        "num_compartments": 1
+    },
+    "CYSTL": {
+        "dG0": 2.4331882603631527,
+        "uncertainty": -0.05411813241081343,
+        "num_compartments": 1
+    },
+    "CYTK1_FWD": {
+        "dG0": 1.814752579502283,
+        "uncertainty": 5.717648576819556e-15,
+        "num_compartments": 1
+    },
+    "CYTK1_REV": {
+        "dG0": -1.8147525795030788,
+        "uncertainty": -5.717648576819556e-15,
+        "num_compartments": 1
+    },
+    "DADK_FWD": {
+        "dG0": 3.278936094726987,
+        "uncertainty": -0.08542813264684126,
+        "num_compartments": 1
+    },
+    "DADK_REV": {
+        "dG0": -3.2789360947272144,
+        "uncertainty": 0.08542813264684121,
+        "num_compartments": 1
+    },
+    "DAPDC": {
+        "dG0": -15.492021841155633,
+        "uncertainty": -0.06641042541576136,
+        "num_compartments": 1
+    },
+    "DAPE_FWD": {
+        "dG0": -1.6533807475360618,
+        "uncertainty": 9.131584377541913e-15,
+        "num_compartments": 1
+    },
+    "DAPE_REV": {
+        "dG0": 1.6533807475360618,
+        "uncertainty": -9.131584377541913e-15,
+        "num_compartments": 1
+    },
+    "DB4PS": {
+        "dG0": -88.2030941761435,
+        "uncertainty": -0.16178435575073463,
+        "num_compartments": 1
+    },
+    "DBTS": {
+        "dG0": 5.122928372571579,
+        "uncertainty": -0.23211870892605135,
+        "num_compartments": 1
+    },
+    "DDPA": {
+        "dG0": -74.35200959846352,
+        "uncertainty": 0.009451881054321182,
+        "num_compartments": 1
+    },
+    "DHAD1": {
+        "dG0": -36.93065911603594,
+        "uncertainty": 0.007016077319029258,
+        "num_compartments": 1
+    },
+    "DHAD2": {
+        "dG0": -36.928253986879895,
+        "uncertainty": 0.007016077319029258,
+        "num_compartments": 1
+    },
+    "DHDPRy": {
+        "dG0": -21.100277753411888,
+        "uncertainty": -0.7400107817957409,
+        "num_compartments": 1
+    },
+    "DHDPS": {
+        "dG0": -128.20294551968357,
+        "uncertainty": -0.32543059106866157,
+        "num_compartments": 1
+    },
+    "DHFR_FWD": {
+        "dG0": -18.823332555509182,
+        "uncertainty": -0.5151245121898871,
+        "num_compartments": 1
+    },
+    "DHFR_REV": {
+        "dG0": 18.82333255550884,
+        "uncertainty": 0.5151245121898873,
+        "num_compartments": 1
+    },
+    "DHFS": {
+        "dG0": -20.325736096175966,
+        "uncertainty": 0.1394501682283129,
+        "num_compartments": 1
+    },
+    "DHNPA2r_FWD": {
+        "dG0": 7.1540237978665004,
+        "uncertainty": 0.15659630514611914,
+        "num_compartments": 1
+    },
+    "DHNPA2r_REV": {
+        "dG0": -7.154023797866444,
+        "uncertainty": -0.15659630514611944,
+        "num_compartments": 1
+    },
+    "DHORDfum": {
+        "dG0": -51.53868680365704,
+        "uncertainty": -0.005287393023464365,
+        "num_compartments": 1
+    },
+    "DHORTS_FWD": {
+        "dG0": -7.288873537091774,
+        "uncertainty": 5.229323918332085e-15,
+        "num_compartments": 1
+    },
+    "DHORTS_REV": {
+        "dG0": 7.2888735370917175,
+        "uncertainty": -5.229323918332085e-15,
+        "num_compartments": 1
+    },
+    "DHPPDA2": {
+        "dG0": 0.0,
+        "uncertainty": -6.264428863588723,
+        "num_compartments": 1
+    },
+    "DHPS2": {
+        "dG0": -62.415100812291364,
+        "uncertainty": 0.5732473551302202,
+        "num_compartments": 1
+    },
+    "DHPTDCs2": {
+        "dG0": -22.538518222085656,
+        "uncertainty": -0.22502003727905362,
+        "num_compartments": 1
+    },
+    "DHQS": {
+        "dG0": -150.3272750006046,
+        "uncertainty": -3.224039166821944,
+        "num_compartments": 1
+    },
+    "DHQTi": {
+        "dG0": -5.290246993946141,
+        "uncertainty": 2.1658022597570437e-15,
+        "num_compartments": 1
+    },
+    "DMATT": {
+        "dG0": -79.85368714581398,
+        "uncertainty": 0.15434947062441687,
+        "num_compartments": 1
+    },
+    "DNMPPA": {
+        "dG0": -8.824987237046308,
+        "uncertainty": -0.07694739932870598,
+        "num_compartments": 1
+    },
+    "DNTPPA": {
+        "dG0": -54.00830673778443,
+        "uncertainty": 0.1415895776848584,
+        "num_compartments": 1
+    },
+    "DPCOAK": {
+        "dG0": 2.6944524229948,
+        "uncertainty": -8.604228440844963e-15,
+        "num_compartments": 1
+    },
+    "DPR": {
+        "dG0": -15.961268504809311,
+        "uncertainty": 3.3584246494910985e-15,
+        "num_compartments": 1
+    },
+    "DTMPK_FWD": {
+        "dG0": -1.659525171797327,
+        "uncertainty": -5.717648576819556e-15,
+        "num_compartments": 1
+    },
+    "DTMPK_REV": {
+        "dG0": 1.6595251717978954,
+        "uncertainty": 5.717648576819556e-15,
+        "num_compartments": 1
+    },
+    "DURIK1": {
+        "dG0": -16.515970846487562,
+        "uncertainty": -0.07243488600608482,
+        "num_compartments": 1
+    },
+    "DURIPP_FWD": {
+        "dG0": 4.813982916489721,
+        "uncertainty": 0.04256327928371517,
+        "num_compartments": 1
+    },
+    "DURIPP_REV": {
+        "dG0": -4.813982916489714,
+        "uncertainty": -0.04256327928371518,
+        "num_compartments": 1
+    },
+    "DXPRIi": {
+        "dG0": -12.981666941931735,
+        "uncertainty": -0.08106522645601966,
+        "num_compartments": 1
+    },
+    "DXPS": {
+        "dG0": -29.177229439791518,
+        "uncertainty": -0.1552227172608409,
+        "num_compartments": 1
+    },
+    "E4PD_FWD": {
+        "dG0": -52.04608881255058,
+        "uncertainty": 0.009680599820112157,
+        "num_compartments": 1
+    },
+    "E4PD_REV": {
+        "dG0": 52.046088812550806,
+        "uncertainty": -0.009680599820112157,
+        "num_compartments": 1
+    },
+    "ECOAH2_HET_FWD": {
+        "dG0": 0.6833990695972716,
+        "uncertainty": -1.099120794378905e-14,
+        "num_compartments": 1
+    },
+    "ECOAH2_HET_REV": {
+        "dG0": -0.6833990695972716,
+        "uncertainty": 1.099120794378905e-14,
+        "num_compartments": 1
+    },
+    "ENO_FWD": {
+        "dG0": -3.8108419943565366,
+        "uncertainty": 0.0003805228007028368,
+        "num_compartments": 1
+    },
+    "ENO_REV": {
+        "dG0": 3.8108419943565366,
+        "uncertainty": -0.0003805228007028365,
+        "num_compartments": 1
+    },
+    "FADRx": {
+        "dG0": -15.5046300875631,
+        "uncertainty": -0.009045043365789374,
+        "num_compartments": 1
+    },
+    "FBA_FWD": {
+        "dG0": 23.163690734624026,
+        "uncertainty": 0.0016176049400735417,
+        "num_compartments": 1
+    },
+    "FBA_REV": {
+        "dG0": -23.1636907346238,
+        "uncertainty": -0.0016176049400735415,
+        "num_compartments": 1
+    },
+    "FBP": {
+        "dG0": -7.475877987430771,
+        "uncertainty": -0.02649924112763438,
+        "num_compartments": 1
+    },
+    "FMNAT": {
+        "dG0": -10.327291537738226,
+        "uncertainty": 0.13237209413358778,
+        "num_compartments": 1
+    },
+    "FTHFL_FWD": {
+        "dG0": -5.484590734173558,
+        "uncertainty": 0.5119594217117386,
+        "num_compartments": 1
+    },
+    "FTHFL_REV": {
+        "dG0": 5.484590734173835,
+        "uncertainty": -0.511959421711739,
+        "num_compartments": 1
+    },
+    "FUM_FWD": {
+        "dG0": -3.424645774163224,
+        "uncertainty": 2.4320710225113513e-06,
+        "num_compartments": 1
+    },
+    "FUM_REV": {
+        "dG0": 3.4246457741631957,
+        "uncertainty": -2.432071022511785e-06,
+        "num_compartments": 1
+    },
+    "G1PACT": {
+        "dG0": -21.99693682298448,
+        "uncertainty": -0.2828330652992471,
+        "num_compartments": 1
+    },
+    "G1SAT_FWD": {
+        "dG0": -9.314422115754155,
+        "uncertainty": 0.04202730783451858,
+        "num_compartments": 1
+    },
+    "G1SAT_REV": {
+        "dG0": 9.314422115754155,
+        "uncertainty": -0.04202730783451858,
+        "num_compartments": 1
+    },
+    "G3PD2_FWD": {
+        "dG0": 22.62886215820754,
+        "uncertainty": -0.00036751500157072847,
+        "num_compartments": 1
+    },
+    "G3PD2_REV": {
+        "dG0": -22.62886215820845,
+        "uncertainty": 0.00036751500157072847,
+        "num_compartments": 1
+    },
+    "G5SADs": {
+        "dG0": -36.70021677294943,
+        "uncertainty": -0.5566027124014195,
+        "num_compartments": 1
+    },
+    "G5SD": {
+        "dG0": -7.623745098362484,
+        "uncertainty": -0.010802149123600339,
+        "num_compartments": 1
+    },
+    "GAPD_FWD": {
+        "dG0": 1.162463761099616,
+        "uncertainty": 0.0003039626920273708,
+        "num_compartments": 1
+    },
+    "GAPD_REV": {
+        "dG0": -1.162463761099012,
+        "uncertainty": -0.00030396269202737514,
+        "num_compartments": 1
+    },
+    "GARFT_FWD": {
+        "dG0": 1.9422408476298187,
+        "uncertainty": -1.189366302574463,
+        "num_compartments": 1
+    },
+    "GARFT_REV": {
+        "dG0": -1.942240847629705,
+        "uncertainty": 1.1893663025744627,
+        "num_compartments": 1
+    },
+    "GCALDD": {
+        "dG0": -66.82889664414893,
+        "uncertainty": -0.01261187675585651,
+        "num_compartments": 1
+    },
+    "GF6PTA": {
+        "dG0": -20.001871777523718,
+        "uncertainty": 0.02611838084424347,
+        "num_compartments": 1
+    },
+    "GHMT2r_FWD": {
+        "dG0": -10.110642594447313,
+        "uncertainty": 0.5158200514131299,
+        "num_compartments": 1
+    },
+    "GHMT2r_REV": {
+        "dG0": 10.110642594447427,
+        "uncertainty": -0.5158200514131295,
+        "num_compartments": 1
+    },
+    "GK1_FWD": {
+        "dG0": 0.04150605634936255,
+        "uncertainty": 9.769962616701378e-15,
+        "num_compartments": 1
+    },
+    "GK1_REV": {
+        "dG0": -0.041506056349248865,
+        "uncertainty": -9.769962616701378e-15,
+        "num_compartments": 1
+    },
+    "GLNS": {
+        "dG0": -15.296216993936376,
+        "uncertainty": 0.00018405661297110631,
+        "num_compartments": 1
+    },
+    "GLU5K": {
+        "dG0": 28.86097045365051,
+        "uncertainty": 0.02121303986744559,
+        "num_compartments": 1
+    },
+    "GLUDy_FWD": {
+        "dG0": 33.417824588481096,
+        "uncertainty": -0.00071281912048019,
+        "num_compartments": 1
+    },
+    "GLUDy_REV": {
+        "dG0": -33.41782458848138,
+        "uncertainty": 0.0007128191204803791,
+        "num_compartments": 1
+    },
+    "GLUPRT": {
+        "dG0": -64.11352500201463,
+        "uncertainty": 0.061095920174767074,
+        "num_compartments": 1
+    },
+    "GLUR_FWD": {
+        "dG0": -0.5574402955468258,
+        "uncertainty": -1.9617372837973154e-05,
+        "num_compartments": 1
+    },
+    "GLUR_REV": {
+        "dG0": 0.5574402955468258,
+        "uncertainty": 1.9617372837973154e-05,
+        "num_compartments": 1
+    },
+    "GLXCL": {
+        "dG0": -15.915342573150795,
+        "uncertainty": -0.0004988653277436771,
+        "num_compartments": 1
+    },
+    "GLYCDx": {
+        "dG0": 20.883509365422924,
+        "uncertainty": 0.0011848386603530159,
+        "num_compartments": 1
+    },
+    "GLYCK": {
+        "dG0": -15.35646689161706,
+        "uncertainty": 0.0003744797406798631,
+        "num_compartments": 1
+    },
+    "GLYCL": {
+        "dG0": 18.585194305972607,
+        "uncertainty": 0.5214073771031034,
+        "num_compartments": 1
+    },
+    "GLYK": {
+        "dG0": -16.653989821213543,
+        "uncertainty": 0.004846313043210459,
+        "num_compartments": 1
+    },
+    "GLYOX3": {
+        "dG0": -57.44681514954934,
+        "uncertainty": 0.10044113380115666,
+        "num_compartments": 1
+    },
+    "GMPS2": {
+        "dG0": -332.50109502181795,
+        "uncertainty": 6.158292021026348,
+        "num_compartments": 1
+    },
+    "GRTT": {
+        "dG0": -81.24714648855036,
+        "uncertainty": 0.1854687139073137,
+        "num_compartments": 1
+    },
+    "GTHOr_FWD": {
+        "dG0": -12.59781681940467,
+        "uncertainty": 6.711802095105135e-05,
+        "num_compartments": 1
+    },
+    "GTHOr_REV": {
+        "dG0": 12.597816819404443,
+        "uncertainty": -6.711802095105135e-05,
+        "num_compartments": 1
+    },
+    "GTPCI": {
+        "dG0": -80.11937163161507,
+        "uncertainty": -1.0255636700061908,
+        "num_compartments": 1
+    },
+    "GTPCII2": {
+        "dG0": -83.76892354209122,
+        "uncertainty": -0.36496653780450233,
+        "num_compartments": 1
+    },
+    "HACD2_HET_FWD": {
+        "dG0": -16.721467710378192,
+        "uncertainty": 7.549516567451064e-15,
+        "num_compartments": 1
+    },
+    "HACD2_HET_REV": {
+        "dG0": 16.721467710377965,
+        "uncertainty": -7.549516567451064e-15,
+        "num_compartments": 1
+    },
+    "HBZOPT": {
+        "dG0": -84.5550632227654,
+        "uncertainty": -0.014264241215859098,
+        "num_compartments": 1
+    },
+    "HCO3E_FWD": {
+        "dG0": -8.048871281984738,
+        "uncertainty": -0.005112166150395089,
+        "num_compartments": 1
+    },
+    "HCO3E_REV": {
+        "dG0": 8.048871281984766,
+        "uncertainty": 0.005112166150395089,
+        "num_compartments": 1
+    },
+    "HEX1": {
+        "dG0": -20.401307562184286,
+        "uncertainty": 0.0004768390035580003,
+        "num_compartments": 1
+    },
+    "HISTD": {
+        "dG0": -17.210418586702872,
+        "uncertainty": 0.1730764122534434,
+        "num_compartments": 1
+    },
+    "HISTP": {
+        "dG0": -20.293298655074828,
+        "uncertainty": 0.06144084843250552,
+        "num_compartments": 1
+    },
+    "HMBS": {
+        "dG0": -132.22763272452266,
+        "uncertainty": -0.6683245327062793,
+        "num_compartments": 1
+    },
+    "HPPK2": {
+        "dG0": -7.477066230090031,
+        "uncertainty": -0.13002275678791622,
+        "num_compartments": 1
+    },
+    "HSDy_FWD": {
+        "dG0": 19.43926068285714,
+        "uncertainty": -0.00031321743112266986,
+        "num_compartments": 1
+    },
+    "HSDy_REV": {
+        "dG0": -19.43926068285714,
+        "uncertainty": 0.00031321743112266986,
+        "num_compartments": 1
+    },
+    "HSK": {
+        "dG0": -39.408859791519944,
+        "uncertainty": -0.039194977350469305,
+        "num_compartments": 1
+    },
+    "HSST": {
+        "dG0": -29.936608020605377,
+        "uncertainty": 0.07679397514837577,
+        "num_compartments": 1
+    },
+    "HSTPT": {
+        "dG0": 8.83206477259938,
+        "uncertainty": 5.773159728050814e-15,
+        "num_compartments": 1
+    },
+    "I2FE2SR": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 1
+    },
+    "I2FE2ST": {
+        "dG0": 0.0,
+        "uncertainty": 0.0,
+        "num_compartments": 1
+    },
+    "ICDHyr_FWD": {
+        "dG0": 5.406109217001358,
+        "uncertainty": 0.005635699719025444,
+        "num_compartments": 1
+    },
+    "ICDHyr_REV": {
+        "dG0": -5.406109217001813,
+        "uncertainty": -0.005635699719025222,
+        "num_compartments": 1
+    },
+    "IG3PS": {
+        "dG0": 0.0,
+        "uncertainty": 2.080794859680982,
+        "num_compartments": 1
+    },
+    "IGPDH": {
+        "dG0": -41.32791617365092,
+        "uncertainty": -0.02763557899126301,
+        "num_compartments": 1
+    },
+    "IGPS": {
+        "dG0": -72.43404498434813,
+        "uncertainty": 0.31957819576319385,
+        "num_compartments": 1
+    },
+    "ILETA_FWD": {
+        "dG0": -5.927241421868416,
+        "uncertainty": -0.19079736626359328,
+        "num_compartments": 1
+    },
+    "ILETA_REV": {
+        "dG0": 5.927241421868473,
+        "uncertainty": 0.19079736626359328,
+        "num_compartments": 1
+    },
+    "IMPC_FWD": {
+        "dG0": 19.58927111918979,
+        "uncertainty": 1.217342410726731,
+        "num_compartments": 1
+    },
+    "IMPC_REV": {
+        "dG0": -19.589271119189732,
+        "uncertainty": -1.217342410726731,
+        "num_compartments": 1
+    },
+    "IMPD": {
+        "dG0": 16.478036941117352,
+        "uncertainty": -0.9893135718676029,
+        "num_compartments": 1
+    },
+    "IPDDI_FWD": {
+        "dG0": -4.844563810027296,
+        "uncertainty": 1.4988010832439613e-14,
+        "num_compartments": 1
+    },
+    "IPDDI_REV": {
+        "dG0": 4.844563810027296,
+        "uncertainty": -1.4988010832439613e-14,
+        "num_compartments": 1
+    },
+    "IPDPS": {
+        "dG0": -57.57268610264168,
+        "uncertainty": -0.07235704305749535,
+        "num_compartments": 1
+    },
+    "IPMD": {
+        "dG0": 15.626074417381687,
+        "uncertainty": 0.032571833772911285,
+        "num_compartments": 1
+    },
+    "IPPMIa_FWD": {
+        "dG0": -3.695077414270429,
+        "uncertainty": -0.06237911266780355,
+        "num_compartments": 1
+    },
+    "IPPMIa_REV": {
+        "dG0": 3.695077414270372,
+        "uncertainty": 0.06237911266780355,
+        "num_compartments": 1
+    },
+    "IPPMIb_FWD": {
+        "dG0": -0.3915610012760453,
+        "uncertainty": 0.039198305675114564,
+        "num_compartments": 1
+    },
+    "IPPMIb_REV": {
+        "dG0": 0.3915610012759885,
+        "uncertainty": -0.039198305675114564,
+        "num_compartments": 1
+    },
+    "IPPS": {
+        "dG0": -26.48316836775325,
+        "uncertainty": -0.012520758385914543,
+        "num_compartments": 1
+    },
+    "KARA1_FWD": {
+        "dG0": 15.621488413442421,
+        "uncertainty": 0.03163218147956237,
+        "num_compartments": 1
+    },
+    "KARA1_REV": {
+        "dG0": -15.621488413442421,
+        "uncertainty": -0.03163218147956237,
+        "num_compartments": 1
+    },
+    "KARA2_FWD": {
+        "dG0": -15.621471843890959,
+        "uncertainty": -0.03163218147956237,
+        "num_compartments": 1
+    },
+    "KARA2_REV": {
+        "dG0": 15.621471843890959,
+        "uncertainty": 0.03163218147956215,
+        "num_compartments": 1
+    },
+    "LEUTAi": {
+        "dG0": -0.323178995107412,
+        "uncertainty": -0.0009174844321266458,
+        "num_compartments": 1
+    },
+    "MALCOAMT": {
+        "dG0": 54.02191552941804,
+        "uncertainty": -1.1000130084353081,
+        "num_compartments": 1
+    },
+    "MCTP1App": {
+        "dG0": 269.7322819039473,
+        "uncertainty": 14.222222443372248,
+        "num_compartments": 1
+    },
+    "MDH_FWD": {
+        "dG0": 26.50293016623145,
+        "uncertainty": 0.00011604275815814066,
+        "num_compartments": 1
+    },
+    "MDH_REV": {
+        "dG0": -26.50293016623118,
+        "uncertainty": -0.00011604275815813025,
+        "num_compartments": 1
+    },
+    "ME2_FWD": {
+        "dG0": 12.107094614873944,
+        "uncertainty": 0.0031491851918266952,
+        "num_compartments": 1
+    },
+    "ME2_REV": {
+        "dG0": -12.107094614873404,
+        "uncertainty": -0.003149185191826609,
+        "num_compartments": 1
+    },
+    "MECDPS": {
+        "dG0": 1809.7897531289059,
+        "uncertainty": -2.644533211522519,
+        "num_compartments": 1
+    },
+    "MEPCT": {
+        "dG0": -9.354949970477257,
+        "uncertainty": 0.06566694906810273,
+        "num_compartments": 1
+    },
+    "METAT": {
+        "dG0": -90.68197893934232,
+        "uncertainty": 1.2833620186983132,
+        "num_compartments": 1
+    },
+    "METS": {
+        "dG0": -1.7505294117565882,
+        "uncertainty": -0.6911689389430204,
+        "num_compartments": 1
+    },
+    "MGSA_FWD": {
+        "dG0": -59.600032732573446,
+        "uncertainty": -0.09544742984097296,
+        "num_compartments": 1
+    },
+    "MGSA_REV": {
+        "dG0": 59.60003273257345,
+        "uncertainty": 0.09544742984097296,
+        "num_compartments": 1
+    },
+    "MOHMT": {
+        "dG0": 9.678488027443677,
+        "uncertainty": -0.5159268562332358,
+        "num_compartments": 1
+    },
+    "MTHFC_FWD": {
+        "dG0": -5.365463312274642,
+        "uncertainty": 0.0003351383173360034,
+        "num_compartments": 1
+    },
+    "MTHFC_REV": {
+        "dG0": 5.365463312274642,
+        "uncertainty": -0.0003351383173360034,
+        "num_compartments": 1
+    },
+    "MTHFR2_FWD": {
+        "dG0": -40.47180854547105,
+        "uncertainty": -0.009045043365790706,
+        "num_compartments": 1
+    },
+    "MTHFR2_REV": {
+        "dG0": 40.471808545471504,
+        "uncertainty": 0.009045043365790928,
+        "num_compartments": 1
+    },
+    "MTHTHFSs": {
+        "dG0": 0.0,
+        "uncertainty": 0.27770975147035043,
+        "num_compartments": 1
+    },
+    "NADK": {
+        "dG0": -12.75907727524509,
+        "uncertainty": 2.842170943040401e-14,
+        "num_compartments": 1
+    },
+    "NADS1": {
+        "dG0": -23.611169368917103,
+        "uncertainty": -0.13981812000603863,
+        "num_compartments": 1
+    },
+    "NDPK1_FWD": {
+        "dG0": -2.6677301092811376,
+        "uncertainty": 0.0002889796091976038,
+        "num_compartments": 1
+    },
+    "NDPK1_REV": {
+        "dG0": 2.6677301092807966,
+        "uncertainty": -0.0002889796091976038,
+        "num_compartments": 1
+    },
+    "NDPK2_FWD": {
+        "dG0": -0.42069248359024414,
+        "uncertainty": 0.00035632237830690583,
+        "num_compartments": 1
+    },
+    "NDPK2_REV": {
+        "dG0": 0.42069248359041467,
+        "uncertainty": -0.00035632237830690583,
+        "num_compartments": 1
+    },
+    "NDPK3_FWD": {
+        "dG0": 0.2554983978087648,
+        "uncertainty": -0.11765941949833114,
+        "num_compartments": 1
+    },
+    "NDPK3_REV": {
+        "dG0": -0.2554983978078553,
+        "uncertainty": 0.1176594194983312,
+        "num_compartments": 1
+    },
+    "NDPK4_FWD": {
+        "dG0": 0.10916571417862997,
+        "uncertainty": -0.15006267245714688,
+        "num_compartments": 1
+    },
+    "NDPK4_REV": {
+        "dG0": -0.10916571417942578,
+        "uncertainty": 0.15006267245714694,
+        "num_compartments": 1
+    },
+    "NDPK8_FWD": {
+        "dG0": 2.3866067209509083,
+        "uncertainty": -0.08542813264685079,
+        "num_compartments": 1
+    },
+    "NDPK8_REV": {
+        "dG0": -2.3866067209504536,
+        "uncertainty": 0.08542813264685079,
+        "num_compartments": 1
+    },
+    "NNATr_FWD": {
+        "dG0": -24.977925763892124,
+        "uncertainty": 0.12875639060542257,
+        "num_compartments": 1
+    },
+    "NNATr_REV": {
+        "dG0": 24.97792576389122,
+        "uncertainty": -0.12875639060542254,
+        "num_compartments": 1
+    },
+    "NNDPR": {
+        "dG0": -25.940849934099667,
+        "uncertainty": 0.07129582800792657,
+        "num_compartments": 1
+    },
+    "NTD2": {
+        "dG0": -8.2363513804994,
+        "uncertainty": 0.22611009507892074,
+        "num_compartments": 1
+    },
+    "NTD6": {
+        "dG0": -16.15020798820327,
+        "uncertainty": -0.058271505354407095,
+        "num_compartments": 1
+    },
+    "OCBT_FWD": {
+        "dG0": -30.305986683613547,
+        "uncertainty": 1.170851610110546e-14,
+        "num_compartments": 1
+    },
+    "OCBT_REV": {
+        "dG0": 30.305986683613526,
+        "uncertainty": -1.1712852909795402e-14,
+        "num_compartments": 1
+    },
+    "OCTDPS": {
+        "dG0": -406.2357324427529,
+        "uncertainty": 0.9273435695365674,
+        "num_compartments": 1
+    },
+    "OHPBAT_FWD": {
+        "dG0": 10.532850035524518,
+        "uncertainty": -0.022941698635199105,
+        "num_compartments": 1
+    },
+    "OHPBAT_REV": {
+        "dG0": -10.532850035524774,
+        "uncertainty": 0.022941698635199112,
+        "num_compartments": 1
+    },
+    "OMCDC": {
+        "dG0": -13.955294948587778,
+        "uncertainty": 0.11974543117266755,
+        "num_compartments": 1
+    },
+    "OMPDC": {
+        "dG0": -22.69816817841604,
+        "uncertainty": 0.23430682616702714,
+        "num_compartments": 1
+    },
+    "OPHBDC": {
+        "dG0": -7.76184482605413,
+        "uncertainty": 0.07491153153616827,
+        "num_compartments": 1
+    },
+    "OPHHX3": {
+        "dG0": -48.36027553443766,
+        "uncertainty": -1.198609603083812,
+        "num_compartments": 1
+    },
+    "ORPT_FWD": {
+        "dG0": -3.723203435422022,
+        "uncertainty": 4.582488902227233e-15,
+        "num_compartments": 1
+    },
+    "ORPT_REV": {
+        "dG0": 3.7232034354224837,
+        "uncertainty": -4.584006785268713e-15,
+        "num_compartments": 1
+    },
+    "P5CR": {
+        "dG0": -15.208783968749458,
+        "uncertainty": 0.341596642464568,
+        "num_compartments": 1
+    },
+    "PANTS": {
+        "dG0": -44.01701329218804,
+        "uncertainty": -0.024100143081427862,
+        "num_compartments": 1
+    },
+    "PAPPT3": {
+        "dG0": -0.9187807525576659,
+        "uncertainty": -0.13665841749701832,
+        "num_compartments": 1
+    },
+    "PDX5PO2": {
+        "dG0": 15.003886961363435,
+        "uncertainty": 0.016796763922160673,
+        "num_compartments": 1
+    },
+    "PDX5PS": {
+        "dG0": -223.4014586612121,
+        "uncertainty": -0.004564720217346667,
+        "num_compartments": 1
+    },
+    "PERD_FWD": {
+        "dG0": 15.630128615527127,
+        "uncertainty": 0.03257183377291151,
+        "num_compartments": 1
+    },
+    "PERD_REV": {
+        "dG0": -15.630128615527155,
+        "uncertainty": -0.03257183377291151,
+        "num_compartments": 1
+    },
+    "PFK": {
+        "dG0": -22.16587528651263,
+        "uncertainty": 0.02697605287165637,
+        "num_compartments": 1
+    },
+    "PFL_FWD": {
+        "dG0": -19.814039438597078,
+        "uncertainty": 0.00043789013853875764,
+        "num_compartments": 1
+    },
+    "PFL_REV": {
+        "dG0": 19.814039438597177,
+        "uncertainty": -0.0004378901385387571,
+        "num_compartments": 1
+    },
+    "PGAMT_FWD": {
+        "dG0": -3.137003350043642,
+        "uncertainty": 2.9258279826693823e-15,
+        "num_compartments": 1
+    },
+    "PGAMT_REV": {
+        "dG0": 3.137003350043642,
+        "uncertainty": -2.9258279826693823e-15,
+        "num_compartments": 1
+    },
+    "PGCD": {
+        "dG0": 30.84281257423504,
+        "uncertainty": 0.0005608557753733479,
+        "num_compartments": 1
+    },
+    "PGI_FWD": {
+        "dG0": 6.99398064699858,
+        "uncertainty": -0.025878202444730374,
+        "num_compartments": 1
+    },
+    "PGI_REV": {
+        "dG0": -6.99398064699858,
+        "uncertainty": 0.025878202444730374,
+        "num_compartments": 1
+    },
+    "PGK_FWD": {
+        "dG0": 19.549800047385702,
+        "uncertainty": -0.0004002080634640967,
+        "num_compartments": 1
+    },
+    "PGK_REV": {
+        "dG0": -19.549800047386157,
+        "uncertainty": 0.0004002080634640968,
+        "num_compartments": 1
+    },
+    "PGM_FWD": {
+        "dG0": -4.474954330214274,
+        "uncertainty": -0.0005462791117255545,
+        "num_compartments": 1
+    },
+    "PGM_REV": {
+        "dG0": 4.474954330214274,
+        "uncertainty": 0.0005462791117255545,
+        "num_compartments": 1
+    },
+    "PHETA1_FWD": {
+        "dG0": -14.561158614794408,
+        "uncertainty": 0.49375212168570265,
+        "num_compartments": 1
+    },
+    "PHETA1_REV": {
+        "dG0": 14.561158614794493,
+        "uncertainty": -0.49375212168570265,
+        "num_compartments": 1
+    },
+    "PMDPHT": {
+        "dG0": -15.055425388823174,
+        "uncertainty": 0.07291169775010697,
+        "num_compartments": 1
+    },
+    "PMPK": {
+        "dG0": 5.654827001018475,
+        "uncertainty": -0.02471139595286433,
+        "num_compartments": 1
+    },
+    "PNTK": {
+        "dG0": -17.837073554960057,
+        "uncertainty": -0.07243488600608504,
+        "num_compartments": 1
+    },
+    "PPBNGS": {
+        "dG0": -103.50694693696113,
+        "uncertainty": 0.8311482609349433,
+        "num_compartments": 1
+    },
+    "PPCDC": {
+        "dG0": -21.17411146600523,
+        "uncertainty": -0.07494870599231052,
+        "num_compartments": 1
+    },
+    "PPM_FWD": {
+        "dG0": -13.804143637006234,
+        "uncertainty": 0.10186020967755889,
+        "num_compartments": 1
+    },
+    "PPM_REV": {
+        "dG0": 13.804143637006234,
+        "uncertainty": -0.10186020967755889,
+        "num_compartments": 1
+    },
+    "PPNCL2": {
+        "dG0": -57.34100100331807,
+        "uncertainty": 0.022477329407885792,
+        "num_compartments": 1
+    },
+    "PPND": {
+        "dG0": -10.78452928696288,
+        "uncertainty": 2.855416740285278,
+        "num_compartments": 1
+    },
+    "PPNDH": {
+        "dG0": -79.21191011637202,
+        "uncertainty": 3.345771654078182,
+        "num_compartments": 1
+    },
+    "PPS": {
+        "dG0": -4.948892478519838,
+        "uncertainty": -0.00026671463697481527,
+        "num_compartments": 1
+    },
+    "PRAGSr_FWD": {
+        "dG0": -27.22916615520213,
+        "uncertainty": 0.014652228693882174,
+        "num_compartments": 1
+    },
+    "PRAGSr_REV": {
+        "dG0": 27.22916615520228,
+        "uncertainty": -0.014652228693882191,
+        "num_compartments": 1
+    },
+    "PRAIS": {
+        "dG0": 1.093562682941105,
+        "uncertainty": 0.49848530059879725,
+        "num_compartments": 1
+    },
+    "PRAIi": {
+        "dG0": -9.793638701096938,
+        "uncertainty": -0.08272775632355045,
+        "num_compartments": 1
+    },
+    "PRAMPC": {
+        "dG0": -2706.7812373105958,
+        "uncertainty": 1.4771091662621465,
+        "num_compartments": 1
+    },
+    "PRASCSi": {
+        "dG0": -77.4450899856333,
+        "uncertainty": 0.1780530601401976,
+        "num_compartments": 1
+    },
+    "PRATPP": {
+        "dG0": -1818.883220999506,
+        "uncertainty": -0.0026402466558556412,
+        "num_compartments": 1
+    },
+    "PRFGS": {
+        "dG0": 29.21744055027066,
+        "uncertainty": 1.2203736445834548,
+        "num_compartments": 1
+    },
+    "PRMICI_FWD": {
+        "dG0": -9.775624832238577,
+        "uncertainty": -0.08272775632354978,
+        "num_compartments": 1
+    },
+    "PRMICI_REV": {
+        "dG0": 9.775624832238577,
+        "uncertainty": 0.08272775632354978,
+        "num_compartments": 1
+    },
+    "PRPPS_FWD": {
+        "dG0": -1.063317862243764,
+        "uncertainty": -0.10017341207603096,
+        "num_compartments": 1
+    },
+    "PRPPS_REV": {
+        "dG0": 1.0633178622447872,
+        "uncertainty": 0.10017341207603098,
+        "num_compartments": 1
+    },
+    "PSCVT_FWD": {
+        "dG0": -16.478218771960677,
+        "uncertainty": -0.04473880092541883,
+        "num_compartments": 1
+    },
+    "PSCVT_REV": {
+        "dG0": 16.478218771960712,
+        "uncertainty": 0.04473880092541904,
+        "num_compartments": 1
+    },
+    "PSERT": {
+        "dG0": -10.896257844091338,
+        "uncertainty": 5.197295048622961e-05,
+        "num_compartments": 1
+    },
+    "PSP_L": {
+        "dG0": -10.369080612883408,
+        "uncertainty": 1.4455423906419105e-05,
+        "num_compartments": 1
+    },
+    "PTAr_FWD": {
+        "dG0": 8.672467245030703,
+        "uncertainty": 4.2930763784754244e-05,
+        "num_compartments": 1
+    },
+    "PTAr_REV": {
+        "dG0": -8.672467245031008,
+        "uncertainty": -4.293076378475858e-05,
+        "num_compartments": 1
+    },
+    "PTPATi": {
+        "dG0": -18.035615784226017,
+        "uncertainty": -0.040039410900913765,
+        "num_compartments": 1
+    },
+    "PUNP1_FWD": {
+        "dG0": 8.138510656290805,
+        "uncertainty": 0.00042977446980058034,
+        "num_compartments": 1
+    },
+    "PUNP1_REV": {
+        "dG0": -8.13851065629077,
+        "uncertainty": -0.00042977446980058034,
+        "num_compartments": 1
+    },
+    "PUNP2_FWD": {
+        "dG0": 10.960856486568645,
+        "uncertainty": -0.14490756946864514,
+        "num_compartments": 1
+    },
+    "PUNP2_REV": {
+        "dG0": -10.960856486568638,
+        "uncertainty": 0.14490756946864514,
+        "num_compartments": 1
+    },
+    "PYK": {
+        "dG0": -25.027319955616264,
+        "uncertainty": 0.000685334179060628,
+        "num_compartments": 1
+    },
+    "PYNP2r_FWD": {
+        "dG0": 1.1720362507402626,
+        "uncertainty": -8.881784197001252e-16,
+        "num_compartments": 1
+    },
+    "PYNP2r_REV": {
+        "dG0": -1.1720362507402342,
+        "uncertainty": 8.881784197001252e-16,
+        "num_compartments": 1
+    },
+    "QULNS": {
+        "dG0": -219.7351483405352,
+        "uncertainty": 1.4645038288235297,
+        "num_compartments": 1
+    },
+    "RBFK": {
+        "dG0": -14.284346533652752,
+        "uncertainty": 0.29915659983174514,
+        "num_compartments": 1
+    },
+    "RBFSa": {
+        "dG0": -98.75457319515775,
+        "uncertainty": -0.2567967749122758,
+        "num_compartments": 1
+    },
+    "RBFSb": {
+        "dG0": -96.85222606988168,
+        "uncertainty": -2.806983500414544,
+        "num_compartments": 1
+    },
+    "RHCCE": {
+        "dG0": -13.702795985212731,
+        "uncertainty": -0.20243336784962418,
+        "num_compartments": 1
+    },
+    "RPE_FWD": {
+        "dG0": -3.3881578544159083,
+        "uncertainty": 0.0008101477973079985,
+        "num_compartments": 1
+    },
+    "RPE_REV": {
+        "dG0": 3.3881578544159083,
+        "uncertainty": -0.0008101477973079985,
+        "num_compartments": 1
+    },
+    "RPI_FWD": {
+        "dG0": 4.4712536353063115,
+        "uncertainty": -0.10296351955814105,
+        "num_compartments": 1
+    },
+    "RPI_REV": {
+        "dG0": -4.4712536353063115,
+        "uncertainty": 0.10296351955814105,
+        "num_compartments": 1
+    },
+    "SADT2": {
+        "dG0": 19.544334038939645,
+        "uncertainty": 0.000596811793555101,
+        "num_compartments": 1
+    },
+    "SDPDS": {
+        "dG0": 8.02163308293467,
+        "uncertainty": -0.009662483854395795,
+        "num_compartments": 1
+    },
+    "SDPTA_FWD": {
+        "dG0": -0.9220551187593173,
+        "uncertainty": -5.88418203051333e-15,
+        "num_compartments": 1
+    },
+    "SDPTA_REV": {
+        "dG0": 0.922055118759431,
+        "uncertainty": 5.88418203051333e-15,
+        "num_compartments": 1
+    },
+    "SERAT_FWD": {
+        "dG0": -6.396159021443282,
+        "uncertainty": -3.497202527569243e-15,
+        "num_compartments": 1
+    },
+    "SERAT_REV": {
+        "dG0": 6.396159021443452,
+        "uncertainty": 3.4941667614862837e-15,
+        "num_compartments": 1
+    },
+    "SHK3Dr_FWD": {
+        "dG0": -6.530071988809539,
+        "uncertainty": -1.3322676295501878e-15,
+        "num_compartments": 1
+    },
+    "SHK3Dr_REV": {
+        "dG0": 6.5300719888095955,
+        "uncertainty": 1.3322676295501878e-15,
+        "num_compartments": 1
+    },
+    "SHKK": {
+        "dG0": -26.215673007866883,
+        "uncertainty": 0.02098969487827196,
+        "num_compartments": 1
+    },
+    "SHSL1": {
+        "dG0": -64.51336396019377,
+        "uncertainty": -0.07963995161078091,
+        "num_compartments": 1
+    },
+    "SULRi": {
+        "dG0": -109.70007763025023,
+        "uncertainty": -0.007372666798325156,
+        "num_compartments": 1
+    },
+    "TALA_FWD": {
+        "dG0": 3.4184060459862735,
+        "uncertainty": -0.025319283339884553,
+        "num_compartments": 1
+    },
+    "TALA_REV": {
+        "dG0": -3.4184060459865577,
+        "uncertainty": 0.025319283339884553,
+        "num_compartments": 1
+    },
+    "THDPS": {
+        "dG0": 26.019401532115126,
+        "uncertainty": 1.1423944193139122,
+        "num_compartments": 1
+    },
+    "THRD_L": {
+        "dG0": -24.064751276544314,
+        "uncertainty": -0.0064520538429612,
+        "num_compartments": 1
+    },
+    "THRS": {
+        "dG0": -29.37246320892723,
+        "uncertainty": 0.030116833047287694,
+        "num_compartments": 1
+    },
+    "TKT1_FWD": {
+        "dG0": -1.5025263687166444,
+        "uncertainty": -0.10129091190800364,
+        "num_compartments": 1
+    },
+    "TKT1_REV": {
+        "dG0": 1.5025263687161896,
+        "uncertainty": 0.10129091190800364,
+        "num_compartments": 1
+    },
+    "TKT2_FWD": {
+        "dG0": -5.946115510564255,
+        "uncertainty": -0.024812940966570052,
+        "num_compartments": 1
+    },
+    "TKT2_REV": {
+        "dG0": 5.946115510564084,
+        "uncertainty": 0.024812940966570055,
+        "num_compartments": 1
+    },
+    "TMDS": {
+        "dG0": -45.276592267676165,
+        "uncertainty": -0.3150446278199756,
+        "num_compartments": 1
+    },
+    "TMPK": {
+        "dG0": -49.434326010980044,
+        "uncertainty": 0.030612385764564376,
+        "num_compartments": 1
+    },
+    "TMPPP": {
+        "dG0": -25.92563916414622,
+        "uncertainty": -1.7319479184152442e-14,
+        "num_compartments": 1
+    },
+    "TPI_FWD": {
+        "dG0": 5.617742386692498,
+        "uncertainty": 0.0017237736251504788,
+        "num_compartments": 1
+    },
+    "TPI_REV": {
+        "dG0": -5.617742386692498,
+        "uncertainty": -0.0017237736251504788,
+        "num_compartments": 1
+    },
+    "TRPS3": {
+        "dG0": 19.179535660116642,
+        "uncertainty": 1.5373986805844453e-15,
+        "num_compartments": 1
+    },
+    "TRSARr_FWD": {
+        "dG0": -29.75776521222747,
+        "uncertainty": 6.217248937900877e-15,
+        "num_compartments": 1
+    },
+    "TRSARr_REV": {
+        "dG0": 29.75776521222747,
+        "uncertainty": -6.217248937900877e-15,
+        "num_compartments": 1
+    },
+    "TYRL": {
+        "dG0": -67.99341840209672,
+        "uncertainty": -0.036658975833297136,
+        "num_compartments": 1
+    },
+    "TYRTA_FWD": {
+        "dG0": 0.37600128851892123,
+        "uncertainty": 2.402808854662375e-15,
+        "num_compartments": 1
+    },
+    "TYRTA_REV": {
+        "dG0": -0.3760012885188644,
+        "uncertainty": -2.4025636929198e-15,
+        "num_compartments": 1
+    },
+    "UAAGDS": {
+        "dG0": -24.393653657316463,
+        "uncertainty": -0.08630952804612471,
+        "num_compartments": 1
+    },
+    "UAGCVT": {
+        "dG0": -14.775426928272054,
+        "uncertainty": -0.059845743968768274,
+        "num_compartments": 1
+    },
+    "UAGDP": {
+        "dG0": -10.753067813157259,
+        "uncertainty": 0.055227404535842364,
+        "num_compartments": 1
+    },
+    "UAGPT3": {
+        "dG0": -15.031333615750214,
+        "uncertainty": -0.01879846704331184,
+        "num_compartments": 1
+    },
+    "UAMAGS": {
+        "dG0": -32.942725195956655,
+        "uncertainty": 0.01246014874843887,
+        "num_compartments": 1
+    },
+    "UAMAS": {
+        "dG0": -30.47656435679869,
+        "uncertainty": -0.10844678445307329,
+        "num_compartments": 1
+    },
+    "UAPGR": {
+        "dG0": -55.42204945372873,
+        "uncertainty": -0.04765628505118946,
+        "num_compartments": 1
+    },
+    "UDCPDP": {
+        "dG0": -34.29352847004063,
+        "uncertainty": 0.08814249337937463,
+        "num_compartments": 1
+    },
+    "UDCPDPS": {
+        "dG0": -649.9771719084031,
+        "uncertainty": 1.4837497112585059,
+        "num_compartments": 1
+    },
+    "UGMDDS": {
+        "dG0": -32.9070420094954,
+        "uncertainty": -0.08630952804612368,
+        "num_compartments": 1
+    },
+    "UHGADA": {
+        "dG0": -6.749307130955003,
+        "uncertainty": 0.12227280772041016,
+        "num_compartments": 1
+    },
+    "UMPK_FWD": {
+        "dG0": -0.5856878804379448,
+        "uncertainty": 0.00035632237831464963,
+        "num_compartments": 1
+    },
+    "UMPK_REV": {
+        "dG0": 0.5856878804380017,
+        "uncertainty": -0.00035632237831464963,
+        "num_compartments": 1
+    },
+    "VALTA_FWD": {
+        "dG0": 1.7246845599528342,
+        "uncertainty": -0.15250957456144817,
+        "num_compartments": 1
+    },
+    "VALTA_REV": {
+        "dG0": -1.7246845599528342,
+        "uncertainty": 0.1525095745614482,
+        "num_compartments": 1
+    },
+    "VPAMTr_FWD": {
+        "dG0": -1.5674006348244802,
+        "uncertainty": 0.1524678876441645,
+        "num_compartments": 1
+    },
+    "VPAMTr_REV": {
+        "dG0": 1.5674006348244234,
+        "uncertainty": -0.1524678876441645,
+        "num_compartments": 1
+    },
+    "HDCR_FWD": {
+        "dG0": -24.21293613329108,
+        "uncertainty": 0.0009474335395007515,
+        "num_compartments": 1
+    },
+    "HDCR_REV": {
+        "dG0": 24.2129361332911,
+        "uncertainty": -0.0009474335395007514,
+        "num_compartments": 1
+    },
+    "PC": {
+        "dG0": -7.194902345612071,
+        "uncertainty": 0.0016161831673994877,
+        "num_compartments": 1
+    },
+    "FRUK_FWD": {
+        "dG0": -18.73357193506564,
+        "uncertainty": 0.0012195986621644306,
+        "num_compartments": 1
+    },
+    "FRUK_REV": {
+        "dG0": 18.73357193506547,
+        "uncertainty": -0.0012195986621644306,
+        "num_compartments": 1
+    },
+    "MTHFDnad_FWD": {
+        "dG0": -6.5371565456348435,
+        "uncertainty": -0.0007533595981590313,
+        "num_compartments": 1
+    },
+    "MTHFDnad_REV": {
+        "dG0": 6.5371565456348435,
+        "uncertainty": 0.0007533595981583652,
+        "num_compartments": 1
+    },
+    "MMT_FWD": {
+        "dG0": -38.70265892609626,
+        "uncertainty": 0.5147387534845582,
+        "num_compartments": 1
+    },
+    "MMT_REV": {
+        "dG0": 38.702658926096206,
+        "uncertainty": -0.5147387534845578,
+        "num_compartments": 1
+    },
+    "CITMS_FWD": {
+        "dG0": -32.077611983568204,
+        "uncertainty": -0.01167462924037993,
+        "num_compartments": 1
+    },
+    "CITMS_REV": {
+        "dG0": 32.077611983568374,
+        "uncertainty": 0.011674629240379906,
+        "num_compartments": 1
+    },
+    "AACOAH_HET_FWD": {
+        "dG0": -6.10307589539525,
+        "uncertainty": -0.0003606024767440763,
+        "num_compartments": 1
+    },
+    "AACOAH_HET_REV": {
+        "dG0": 6.1030758953954205,
+        "uncertainty": 0.0003606024767440889,
+        "num_compartments": 1
+    },
+    "AACL_HET": {
+        "dG0": -12.441653579483614,
+        "uncertainty": -0.0038132196435825025,
+        "num_compartments": 1
+    },
+    "ALCD20y_HET_FWD": {
+        "dG0": 3.6838143266988084,
+        "uncertainty": -0.0003356654102773292,
+        "num_compartments": 1
+    },
+    "ALCD20y_HET_REV": {
+        "dG0": -3.6838143266987515,
+        "uncertainty": 0.0003356654102771939,
+        "num_compartments": 1
+    },
+    "SERD_L": {
+        "dG0": -30.16675451746997,
+        "uncertainty": 0.0016884968586137208,
+        "num_compartments": 1
+    },
+    "CCL_FWD": {
+        "dG0": -0.6371005096259168,
+        "uncertainty": -0.037815831829480034,
+        "num_compartments": 1
+    },
+    "CCL_REV": {
+        "dG0": 0.6371005096254976,
+        "uncertainty": 0.03781583182948017,
+        "num_compartments": 1
+    },
+    "CCT_FWD": {
+        "dG0": -0.12278642408796259,
+        "uncertainty": 4.440892098500626e-16,
+        "num_compartments": 1
+    },
+    "CCT_REV": {
+        "dG0": 0.12278642408767837,
+        "uncertainty": 0.0,
+        "num_compartments": 1
+    },
+    "GLYCTO": {
+        "dG0": 0.0,
+        "uncertainty": 0.00043920464744692453,
+        "num_compartments": 1
+    },
+    "LDAPAT_FWD": {
+        "dG0": -63.39078478474573,
+        "uncertainty": -1.1325170035635734,
+        "num_compartments": 1
+    },
+    "LDAPAT_REV": {
+        "dG0": 63.39078478474568,
+        "uncertainty": 1.1325170035635737,
+        "num_compartments": 1
+    },
+    "DHDH": {
+        "dG0": 6.607658979897138,
+        "uncertainty": 0.0001209129513305672,
+        "num_compartments": 1
+    },
+    "HSAT": {
+        "dG0": -28.499947545579516,
+        "uncertainty": -0.04326944825972884,
+        "num_compartments": 1
+    },
+    "AHSERL2": {
+        "dG0": -62.60112742361963,
+        "uncertainty": -0.008687272146379939,
+        "num_compartments": 1
+    },
+    "OCOAT1_FWD": {
+        "dG0": -6.532005838671239,
+        "uncertainty": 0.00040101884908849694,
+        "num_compartments": 1
+    },
+    "OCOAT1_REV": {
+        "dG0": 6.532005838670614,
+        "uncertainty": -0.00040101884908848767,
+        "num_compartments": 1
+    },
+    "ALAD_L": {
+        "dG0": 33.57296441862084,
+        "uncertainty": 0.00018514625558513137,
+        "num_compartments": 1
+    },
+    "BTDD_RR_FWD": {
+        "dG0": 12.260133624303478,
+        "uncertainty": -6.439293542825908e-15,
+        "num_compartments": 1
+    },
+    "BTDD_RR_REV": {
+        "dG0": -12.260133624303535,
+        "uncertainty": 6.356026815979021e-15,
+        "num_compartments": 1
+    },
+    "ACTD2_FWD": {
+        "dG0": -6.313248757299334,
+        "uncertainty": 0.21294330175692822,
+        "num_compartments": 1
+    },
+    "ACTD2_REV": {
+        "dG0": 6.313248757299959,
+        "uncertainty": -0.21294330175692822,
+        "num_compartments": 1
+    },
+    "PPDD": {
+        "dG0": -39.01282031369206,
+        "uncertainty": -0.031939799524410006,
+        "num_compartments": 1
+    },
+    "MMSAD2_FWD": {
+        "dG0": -12.97378129785875,
+        "uncertainty": 0.06253206734922401,
+        "num_compartments": 1
+    },
+    "MMSAD2_REV": {
+        "dG0": 12.973781297858295,
+        "uncertainty": -0.0625320673492239,
+        "num_compartments": 1
+    },
+    "ALCD3ir": {
+        "dG0": -21.77009317670698,
+        "uncertainty": 0.14803684981339046,
+        "num_compartments": 1
+    },
+    "PTA2_FWD": {
+        "dG0": 20.65538455650659,
+        "uncertainty": -0.05079026593227459,
+        "num_compartments": 1
+    },
+    "PTA2_REV": {
+        "dG0": -20.655384556507443,
+        "uncertainty": 0.05079026593227465,
+        "num_compartments": 1
+    },
+    "PPAKr_FWD": {
+        "dG0": -33.029073061419865,
+        "uncertainty": 0.051124577432974175,
+        "num_compartments": 1
+    },
+    "PPAKr_REV": {
+        "dG0": 33.02907306141964,
+        "uncertainty": -0.05112457743297415,
+        "num_compartments": 1
+    },
+    "DHAPT": {
+        "dG0": -39.93810107903343,
+        "uncertainty": 0.004918945853696784,
+        "num_compartments": 1
+    },
+    "GLYCDH": {
+        "dG0": -33.57199184770465,
+        "uncertainty": -0.05684550664335629,
+        "num_compartments": 1
+    },
+    "13PPDH_FWD": {
+        "dG0": -17.620733314974473,
+        "uncertainty": -0.016796763922161118,
+        "num_compartments": 1
+    },
+    "13PPDH_REV": {
+        "dG0": 17.62073331497396,
+        "uncertainty": 0.016796763922161118,
+        "num_compartments": 1
+    },
+    "3HPADHi_3HPCOAHYD": {
+        "dG0": -14.195207181788646,
+        "uncertainty": 0.051502223887424536,
+        "num_compartments": 1
+    },
+    "GLYCOLDH_FWD": {
+        "dG0": -43.233938083918844,
+        "uncertainty": 0.033905698389566724,
+        "num_compartments": 1
+    },
+    "GLYCOLDH_REV": {
+        "dG0": 43.23393808391887,
+        "uncertainty": -0.033905698389566724,
+        "num_compartments": 1
+    },
+    "BETMT": {
+        "dG0": 8.562154306500133,
+        "uncertainty": -0.24321525024275648,
+        "num_compartments": 1
+    },
+    "AACOAR_HET_FWD": {
+        "dG0": -14.288423363400852,
+        "uncertainty": 0.0009396522933410867,
+        "num_compartments": 1
+    },
+    "AACOAR_HET_REV": {
+        "dG0": 14.288423363400625,
+        "uncertainty": -0.0009396522933411422,
+        "num_compartments": 1
+    },
+    "3HBCOAH_HET_FWD": {
+        "dG0": -34.739841524195526,
+        "uncertainty": 0.0002553482683043118,
+        "num_compartments": 1
+    },
+    "3HBCOAH_HET_REV": {
+        "dG0": 34.739841524195356,
+        "uncertainty": -0.0002553482683043109,
+        "num_compartments": 1
+    },
+    "CCOA_HET_FWD": {
+        "dG0": 3.7223833588957973,
+        "uncertainty": 9.65980767597685e-15,
+        "num_compartments": 1
+    },
+    "CCOA_HET_REV": {
+        "dG0": -3.722383358895968,
+        "uncertainty": -9.658940314238862e-15,
+        "num_compartments": 1
+    },
+    "PTBBUTP_HET_FWD": {
+        "dG0": 22.34103986112291,
+        "uncertainty": -0.03976042247047479,
+        "num_compartments": 1
+    },
+    "PTBBUTP_HET_REV": {
+        "dG0": -22.34103986112276,
+        "uncertainty": 0.039760422470474836,
+        "num_compartments": 1
+    },
+    "BUTKr_HET_FWD": {
+        "dG0": -32.01156809614747,
+        "uncertainty": 0.18654827961316994,
+        "num_compartments": 1
+    },
+    "BUTKr_HET_REV": {
+        "dG0": 32.01156809614719,
+        "uncertainty": -0.18654827961316992,
+        "num_compartments": 1
+    },
+    "BTCOARx_HET_FWD": {
+        "dG0": 10.525419567978133,
+        "uncertainty": 0.14085244653865736,
+        "num_compartments": 1
+    },
+    "BTCOARx_HET_REV": {
+        "dG0": -10.525419567978588,
+        "uncertainty": -0.14085244653865736,
+        "num_compartments": 1
+    },
+    "ALCD4nad_HET_FWD": {
+        "dG0": -20.584290742825203,
+        "uncertainty": -0.0030150144552700633,
+        "num_compartments": 1
+    },
+    "ALCD4nad_HET_REV": {
+        "dG0": 20.584290742825033,
+        "uncertainty": 0.003015014455270082,
+        "num_compartments": 1
+    },
+    "ALCD4nadp_HET_FWD": {
+        "dG0": -20.586434837813783,
+        "uncertainty": -0.0020753621619209275,
+        "num_compartments": 1
+    },
+    "ALCD4nadp_HET_REV": {
+        "dG0": 20.586434837813613,
+        "uncertainty": 0.002075362161920946,
+        "num_compartments": 1
+    },
+    "HEXOLADHnad_HET_FWD": {
+        "dG0": -17.62073331497413,
+        "uncertainty": -0.016796763922161118,
+        "num_compartments": 1
+    },
+    "HEXOLADHnad_HET_REV": {
+        "dG0": 17.62073331497413,
+        "uncertainty": 0.016796763922160896,
+        "num_compartments": 1
+    },
+    "HEXOLADHnadp_HET_FWD": {
+        "dG0": -17.62287740996271,
+        "uncertainty": -0.01585711162881176,
+        "num_compartments": 1
+    },
+    "HEXOLADHnadp_HET_REV": {
+        "dG0": 17.62287740996271,
+        "uncertainty": 0.01585711162881176,
+        "num_compartments": 1
+    },
+    "BTDD_RS_HET_FWD": {
+        "dG0": 13.939710953861947,
+        "uncertainty": 0.01628591688645553,
+        "num_compartments": 1
+    },
+    "BTDD_RS_HET_REV": {
+        "dG0": -13.93971095386189,
+        "uncertainty": -0.01628591688645553,
+        "num_compartments": 1
+    },
+    "ACLDC_HET_FWD": {
+        "dG0": -14.444446097761386,
+        "uncertainty": -0.0680538158860774,
+        "num_compartments": 1
+    },
+    "ACLDC_HET_REV": {
+        "dG0": 14.444446097761329,
+        "uncertainty": 0.0680538158860774,
+        "num_compartments": 1
+    },
+    "GDH_HET_FWD": {
+        "dG0": -41.01426247520092,
+        "uncertainty": -0.01616472967365959,
+        "num_compartments": 1
+    },
+    "GDH_HET_REV": {
+        "dG0": 41.014262475200894,
+        "uncertainty": 0.01616472967365959,
+        "num_compartments": 1
+    },
+    "ALD_HET_FWD": {
+        "dG0": -15.61929115346561,
+        "uncertainty": -0.032571833772911396,
+        "num_compartments": 1
+    },
+    "ALD_HET_REV": {
+        "dG0": 15.619291153465383,
+        "uncertainty": 0.03257183377291151,
+        "num_compartments": 1
+    },
+    "METR_ACS_WLP_FWD": {
+        "dG0": -43.97571580460544,
+        "uncertainty": -0.5122646782082445,
+        "num_compartments": 1
+    },
+    "METR_ACS_WLP_REV": {
+        "dG0": 43.97571580460544,
+        "uncertainty": 0.5122646782082441,
+        "num_compartments": 1
+    },
+    "TRPS2_FWD": {
+        "dG0": -50.669396045745316,
+        "uncertainty": 0.0018008473370925574,
+        "num_compartments": 1
+    },
+    "TRPS2_REV": {
+        "dG0": 50.669396045745316,
+        "uncertainty": -0.0018008473370925574,
+        "num_compartments": 1
+    },
+    "PPA": {
+        "dG0": -16.456826036241424,
+        "uncertainty": 8.430804139705587e-05,
+        "num_compartments": 1
+    },
+    "rxn00704_FWD": {
+        "dG0": -16.72997872330575,
+        "uncertainty": 0.12104741477838843,
+        "num_compartments": 1
+    },
+    "rxn00704_REV": {
+        "dG0": 16.72997872330575,
+        "uncertainty": -0.12104741477838843,
+        "num_compartments": 1
+    },
+    "rxn00213_FWD": {
+        "dG0": -10.521515582447698,
+        "uncertainty": 0.12113584425838365,
+        "num_compartments": 1
+    },
+    "rxn00213_REV": {
+        "dG0": 10.521515582447933,
+        "uncertainty": -0.12113584425838364,
+        "num_compartments": 1
+    },
+    "rxn00214_FWD": {
+        "dG0": 1.2748787949353755,
+        "uncertainty": -0.08101538276589126,
+        "num_compartments": 1
+    },
+    "rxn00214_REV": {
+        "dG0": -1.2748787949353755,
+        "uncertainty": 0.08101538276589126,
+        "num_compartments": 1
+    },
+    "GRXR": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "GLUTRS": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "MECDPDH5": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "CTECOAI7_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "I2FE2SS2": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "U23GAAT": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "CTECOAI7_REV": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "PAPSR2": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "AOXSr2": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "rxn05349_REV": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "HEXOAL_HET_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "MCOATA_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "HEXOAL_HET_REV": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "RNTR3c2": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "UAGAAT_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "I2FE2SS": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "FLDR2": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "MCOATA_REV": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "ICYSDS": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "3OAR140_REV": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "I4FE4ST": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "rxn05349_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "CPMPS": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "GLUTRR": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "RNTR1c2": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "UAGAAT_REV": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "HEXALD_HET_REV": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "RNTR2c2": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "c160": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "THZPSN3": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "I4FE4SR": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "3OAS140": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "HEXALD_HET_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "BTS5": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "3OAR140_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 999.9,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'equilibrator_unbalanced_reactions'"
+    },
+    "DRPA_HET_REV": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "3HPPTA_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "POLYGP": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "DRPA_HET_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "c181": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "c14": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "c180": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "cds1": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "ALDR_HET_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "PSD": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "PGPP": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "12DGR": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "PETOHM": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "PBUTT2_HET_REV": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "3HPPTA_REV": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "3HPPK_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "c17": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "c19": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "DGK": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "PBUTT2_HET_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "3HBALALD_HET_REV": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "ALDR_HET_REV": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "3HBALALD_HET_FWD": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "3HPPK_REV": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "c161": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "cds": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    },
+    "PGSA": {
+        "dG0": 0.0,
+        "uncertainty": 888.8,
+        "num_compartments": 1,
+        "notes": "Placeholder from 'metabolite_resolution_failures'"
+    }
+}

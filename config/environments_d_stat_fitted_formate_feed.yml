@@ -1,0 +1,35 @@
+environments:
+  # Formate-feed environment using the fitted fluxes from environments_d_stat_fitted_generated.yml and 
+  # gas concentration of H2 and CO2 based on kla calculations as well as formate feed value as external concentration.
+
+  Fitted_MeasurementValidation_DStat_17_t717h_formate_feed:
+    concentrations_file: concentrations_awoodii_h2_co2_medium.json
+    substrates:
+      Formate:
+      - {id: EX_for_e_REV, lb: 236.4, ub: 236.4}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 38.861507272975174, ub: 38.861507272975174}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+        - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+        - {id: EX_co2_e_FWD, lb: 156.47670763705, ub: 156.47670763705}
+        - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+        - {id: EX_h2_e_FWD, lb: 76.1, ub: 76.1}
+        - {id: biomass, lb: 0.054, ub: 0.054}
+        - {id: ATPM, lb: 7.719627410401822, ub: 7.719627410401822}
+    concentration_adjustments:
+      Formate:
+        Acetate:
+          for_c: {min: 1e-06, max: 0.2}
+          for_p: {min: 0.06, max: 0.06}
+          for_e: {min: 0.06, max: 0.06}
+          h2_c: {min: 1e-06, max: 0.02}
+          h2_p: {min: 1e-06, max: 0.02}
+          h2_e: {min: 0.000267, max: 0.000267}
+          co2_c: {min: 1e-06, max: 0.02}
+          co2_p: {min: 1e-06, max: 0.02}
+          co2_e: {min: 0.002707, max: 0.002707}
+
+
+

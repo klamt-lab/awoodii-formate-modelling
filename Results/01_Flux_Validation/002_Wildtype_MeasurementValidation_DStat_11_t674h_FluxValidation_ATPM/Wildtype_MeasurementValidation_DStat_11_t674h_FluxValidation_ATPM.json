@@ -1,0 +1,594 @@
+[
+    {
+        "experiment_name": "Wildtype_MeasurementValidation_DStat_11_t674h_FluxValidation_ATPM",
+        "scenario_id": "Wildtype__MeasurementValidation_DStat_11_t674h__Formate__Acetate",
+        "substrate": "Formate",
+        "product": "Acetate",
+        "diagnostics_environment": {
+            "substrate_reaction_ids": [
+                "EX_for_e_REV"
+            ],
+            "uptake_reactions_open_before": {
+                "EX_ca2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cl_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cobalt2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cu2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe3_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_h2o_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_h_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_k_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mg2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mobd_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_na1_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_nh4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_ni2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_pi_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_so4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_zn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                }
+            },
+            "bounds_changed": [
+                {
+                    "reaction_id": "EX_for_e_REV",
+                    "source": "substrates.Formate",
+                    "bounds_before": [
+                        0.0,
+                        0.0
+                    ],
+                    "bounds_after": [
+                        0.0,
+                        400.0
+                    ]
+                },
+                {
+                    "reaction_id": "EX_ac_e_FWD",
+                    "source": "products.Acetate",
+                    "bounds_before": [
+                        0.0,
+                        0.0
+                    ],
+                    "bounds_after": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                {
+                    "reaction_id": "EX_co2_e_FWD",
+                    "source": "substrate_product_adjustments.Formate.Acetate",
+                    "bounds_before": [
+                        0.0,
+                        0.0
+                    ],
+                    "bounds_after": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                {
+                    "reaction_id": "EX_h2_e_FWD",
+                    "source": "substrate_product_adjustments.Formate.Acetate",
+                    "bounds_before": [
+                        0.0,
+                        0.0
+                    ],
+                    "bounds_after": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                {
+                    "reaction_id": "biomass",
+                    "source": "substrate_product_adjustments.Formate.Acetate",
+                    "bounds_before": [
+                        0.0,
+                        1000.0
+                    ],
+                    "bounds_after": [
+                        0.0,
+                        1.0
+                    ]
+                }
+            ],
+            "uptake_reactions_open_after": {
+                "EX_ca2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cl_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cobalt2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cu2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe3_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_for_e_REV": {
+                    "max_uptake_rate": 400.0,
+                    "bounds": [
+                        0.0,
+                        400.0
+                    ]
+                },
+                "EX_h2o_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_h_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_k_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mg2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mobd_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_na1_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_nh4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_ni2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_pi_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_so4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_zn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                }
+            },
+            "other_uptake_reactions_open_after": {
+                "EX_ca2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cl_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cobalt2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cu2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe3_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_h2o_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_h_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_k_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mg2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mobd_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_na1_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_nh4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_ni2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_pi_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_so4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_zn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                }
+            },
+            "reaction_ids_missing": []
+        },
+        "metrics": {
+            "measurement_count": 5,
+            "hard_bound_count": 2,
+            "adjusted_measurement_count": 2,
+            "max_absolute_adjustment": 9.71569414,
+            "optATPM_ATPM": 3.623324479511504,
+            "execution_time_seconds": 0.13
+        },
+        "steps": [
+            {
+                "Step_Name": "fit_measurements",
+                "Objective": "make_scenario_feasible",
+                "Objective_Direction": "min",
+                "Constraints": "5 measurements; 2 hard bounds",
+                "Status": "optimal",
+                "Objective_Value": 17.521959839500013,
+                "MinForce": "N/A",
+                "Biomass": "N/A",
+                "Product_Flux": "N/A",
+                "Substrate_Uptake_Realized": {
+                    "EX_for_e_REV": {
+                        "flux": null,
+                        "uptake_rate": null
+                    }
+                },
+                "ATPM": "N/A",
+                "Swaps_Required": "N/A",
+                "Solver_Status": null,
+                "Solver_Status_Name": null,
+                "Termination_Condition": null,
+                "Termination_Condition_Name": null,
+                "Solver_Message": null,
+                "Solver_Error": null,
+                "LP_Seed_Objective": null,
+                "Retained_Objective_Fraction": null,
+                "Retained_Objective_Lower": null,
+                "Retained_Objective_Upper": null,
+                "Variability_Variables": null,
+                "Removed_Inactive_Reactions": null,
+                "Active_Reactions_Before": null,
+                "Active_Reactions_After": null,
+                "Floored_Reaction_Ranges": null,
+                "Active_Set_Source": null,
+                "FVA_Directions_Resolved_From_LP_Seed": null,
+                "LP_Seed_Active_Reactions": null,
+                "LP_Resolved_Thermodynamic_Pairs": null,
+                "LP_Unselected_Thermodynamic_Pairs": null,
+                "LP_Unselected_Direction_Override_Count": null,
+                "LP_Unselected_Direction_Overrides": null,
+                "Thermodynamic_Bidirectional_Pairs": null,
+                "Active_Set_Union_Seed_File": null,
+                "Active_Set_Union_Reactions": null,
+                "Active_Set_Union_Added_Reactions": null,
+                "Initialized_From_LP_Seed": null,
+                "Initialized_NLP_Variables": null,
+                "Clamped_NLP_Initial_Values": null,
+                "NLP_Multistart_Attempts": null,
+                "NLP_Multistart_Successes": null,
+                "NLP_Multistart_Selected_Attempt": null,
+                "NLP_Multistart_Seed": null,
+                "NLP_Multistart_Objectives": null,
+                "Solution_Load_Error": null,
+                "Measurement_Count": 5,
+                "Adjusted_Reactions_Count": 2,
+                "Adjusted_Reactions": "EX_for_e_REV: 118.9 -> 109.18431; EX_co2_e_FWD: 50.1 -> 57.906266",
+                "Mean_Absolute_Adjustment": 3.50439197,
+                "Max_Absolute_Adjustment": 9.71569414,
+                "Relative_Adjustments_Percent": "EX_for_e_REV: 8.1713155%; EX_co2_e_FWD: 15.581369%",
+                "Mean_Absolute_Relative_Adjustment_Percent": 4.75053683,
+                "Max_Absolute_Relative_Adjustment_Percent": 15.58136866
+            },
+            {
+                "Step_Name": "optATPM",
+                "Objective": "ATPM",
+                "Objective_Direction": "max",
+                "Constraints": "",
+                "Status": "Optimal",
+                "Objective_Value": 3.623324479511504,
+                "MinForce": "N/A",
+                "Biomass": 0.051,
+                "Product_Flux": 24.6,
+                "Substrate_Uptake_Realized": {
+                    "EX_for_e_REV": {
+                        "flux": 109.18430585765002,
+                        "uptake_rate": 109.18430585765002
+                    }
+                },
+                "ATPM": 3.623324479511504,
+                "Swaps_Required": "N/A",
+                "Solver_Status": null,
+                "Solver_Status_Name": null,
+                "Termination_Condition": null,
+                "Termination_Condition_Name": null,
+                "Solver_Message": null,
+                "Solver_Error": null,
+                "LP_Seed_Objective": null,
+                "Retained_Objective_Fraction": null,
+                "Retained_Objective_Lower": null,
+                "Retained_Objective_Upper": null,
+                "Variability_Variables": null,
+                "Removed_Inactive_Reactions": null,
+                "Active_Reactions_Before": null,
+                "Active_Reactions_After": null,
+                "Floored_Reaction_Ranges": null,
+                "Active_Set_Source": null,
+                "FVA_Directions_Resolved_From_LP_Seed": null,
+                "LP_Seed_Active_Reactions": null,
+                "LP_Resolved_Thermodynamic_Pairs": null,
+                "LP_Unselected_Thermodynamic_Pairs": null,
+                "LP_Unselected_Direction_Override_Count": null,
+                "LP_Unselected_Direction_Overrides": null,
+                "Thermodynamic_Bidirectional_Pairs": null,
+                "Active_Set_Union_Seed_File": null,
+                "Active_Set_Union_Reactions": null,
+                "Active_Set_Union_Added_Reactions": null,
+                "Initialized_From_LP_Seed": null,
+                "Initialized_NLP_Variables": null,
+                "Clamped_NLP_Initial_Values": null,
+                "NLP_Multistart_Attempts": null,
+                "NLP_Multistart_Successes": null,
+                "NLP_Multistart_Selected_Attempt": null,
+                "NLP_Multistart_Seed": null,
+                "NLP_Multistart_Objectives": null,
+                "Solution_Load_Error": null
+            }
+        ],
+        "status": "Success"
+    }
+]

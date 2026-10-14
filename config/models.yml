@@ -1,0 +1,41 @@
+base_knockouts_wt: &base_knockouts_wt
+  EX_co_e_FWD: [0, 0]
+  EX_co2_e_FWD: [0, 0]
+  EX_co2_e_REV: [0, 0]
+  EX_for_e_FWD: [0, 0]
+  EX_meoh_e_FWD: [0, 0]
+  EX_glyb_e_FWD: [0, 0]
+  EX_dmgly_e_FWD: [0, 0]
+  EX_h2_e_FWD: [0, 0]
+  EX_h2_e_REV: [0, 0]
+  EX_fru_e_FWD: [0, 0]
+  EX_glyc_e_FWD: [0, 0]
+  EX_dha_e_FWD: [0, 0]
+  EX_ala__L_e_FWD: [0, 0]
+  EX_lac__D_e_FWD: [0, 0]
+  EX_ac_e_FWD: [0, 0]
+  EX_citm_e_FWD: [0, 0]
+  EX_acetone_e_FWD: [0, 0]
+  EX_2ppoh_e_FWD: [0, 0]
+  EX_bhb_e_FWD: [0, 0]
+  EX_acald_e_FWD: [0, 0]
+  EX_glycol_e_FWD: [0, 0]
+  EX_etoh_e_FWD: [0, 0]
+  EX_btd_RR_e_FWD: [0, 0]
+  EX_actn__R_e_FWD: [0, 0]
+  EX_btnn_e_FWD: [0, 0]
+  EX_2btol_e_FWD: [0, 0]
+  EX_caf_e_FWD: [0, 0]
+  EX_hcaf_e_FWD: [0, 0]
+  EX_12ppd__S_e_FWD: [0, 0]
+  EX_ppoh_e_FWD: [0, 0]
+  EX_ppa_e_FWD: [0, 0]
+  ACLDC_HET_FWD: [0, 0]
+  ACLDC_HET_REV: [0, 0]
+
+models:
+  Wildtype:
+    model_file: "A_woodii_cleaned.xml.gz"   # Found under Models/A_woodii_cleaned.xml.gz
+    dG0_file: "dG0_wildtype.json"           # Found under Data/dG0_wildtype.json
+    biomass_id: "biomass"
+    model_adjustments: *base_knockouts_wt   # Avoiding any production of side products

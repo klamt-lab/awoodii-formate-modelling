@@ -1,0 +1,19 @@
+{
+  "campaign_name": "03_NAD_Pool_Scan_with_Bottlenecks_PGCD0_all_times",
+  "output_dir": "/home/jasmin/Documents/Publication_Repositories/awoodii-formate-modelling/Results/03_NAD_Pool_Scan_with_Bottlenecks_PGCD0_all_times",
+  "created_utc": "2026-10-13T16:06:49.523269+00:00",
+  "experiment_count": 1,
+  "experiments": [
+    {
+      "index": 0,
+      "experiment_name": "Wildtype_Fitted_MeasurementValidation_DStat_17_t717h_formate_feed_MDF_Bottlenecks_NADH_NAD_Lower_Bound_Scan_PGCD0",
+      "experiment_type": "VariableScan",
+      "analysis_type": "VariableScan",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__Fitted_MeasurementValidation_DStat_17_t717h_formate_feed__Formate__Acetate"
+      ],
+      "solver": "ThermoSolverCPLEXConfig"
+    }
+  ]
+}

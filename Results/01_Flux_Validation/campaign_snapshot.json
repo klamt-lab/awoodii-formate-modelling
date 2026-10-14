@@ -1,0 +1,118 @@
+{
+  "campaign_name": "01_Flux_Validation",
+  "output_dir": "/home/jasmin/Documents/Publication_Repositories/awoodii-nad-pool-scan/Results/01_Flux_Validation",
+  "created_utc": "2026-10-12T18:00:25.242124+00:00",
+  "experiment_count": 10,
+  "experiments": [
+    {
+      "index": 0,
+      "experiment_name": "Wildtype_MeasurementValidation_DStat_09_average_FluxValidation_ATPM",
+      "experiment_type": "fluxvalidation",
+      "analysis_type": "FluxValidation",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__MeasurementValidation_DStat_09_average__Formate__Acetate"
+      ],
+      "solver": "StoichiometricSolverConfig"
+    },
+    {
+      "index": 1,
+      "experiment_name": "Wildtype_MeasurementValidation_DStat_10_t668h_FluxValidation_ATPM",
+      "experiment_type": "fluxvalidation",
+      "analysis_type": "FluxValidation",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__MeasurementValidation_DStat_10_t668h__Formate__Acetate"
+      ],
+      "solver": "StoichiometricSolverConfig"
+    },
+    {
+      "index": 2,
+      "experiment_name": "Wildtype_MeasurementValidation_DStat_11_t674h_FluxValidation_ATPM",
+      "experiment_type": "fluxvalidation",
+      "analysis_type": "FluxValidation",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__MeasurementValidation_DStat_11_t674h__Formate__Acetate"
+      ],
+      "solver": "StoichiometricSolverConfig"
+    },
+    {
+      "index": 3,
+      "experiment_name": "Wildtype_MeasurementValidation_DStat_12_t677h_FluxValidation_ATPM",
+      "experiment_type": "fluxvalidation",
+      "analysis_type": "FluxValidation",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__MeasurementValidation_DStat_12_t677h__Formate__Acetate"
+      ],
+      "solver": "StoichiometricSolverConfig"
+    },
+    {
+      "index": 4,
+      "experiment_name": "Wildtype_MeasurementValidation_DStat_13_t692h_FluxValidation_ATPM",
+      "experiment_type": "fluxvalidation",
+      "analysis_type": "FluxValidation",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__MeasurementValidation_DStat_13_t692h__Formate__Acetate"
+      ],
+      "solver": "StoichiometricSolverConfig"
+    },
+    {
+      "index": 5,
+      "experiment_name": "Wildtype_MeasurementValidation_DStat_14_t698h_FluxValidation_ATPM",
+      "experiment_type": "fluxvalidation",
+      "analysis_type": "FluxValidation",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__MeasurementValidation_DStat_14_t698h__Formate__Acetate"
+      ],
+      "solver": "StoichiometricSolverConfig"
+    },
+    {
+      "index": 6,
+      "experiment_name": "Wildtype_MeasurementValidation_DStat_15_t701h_FluxValidation_ATPM",
+      "experiment_type": "fluxvalidation",
+      "analysis_type": "FluxValidation",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__MeasurementValidation_DStat_15_t701h__Formate__Acetate"
+      ],
+      "solver": "StoichiometricSolverConfig"
+    },
+    {
+      "index": 7,
+      "experiment_name": "Wildtype_MeasurementValidation_DStat_16_t715h_FluxValidation_ATPM",
+      "experiment_type": "fluxvalidation",
+      "analysis_type": "FluxValidation",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__MeasurementValidation_DStat_16_t715h__Formate__Acetate"
+      ],
+      "solver": "StoichiometricSolverConfig"
+    },
+    {
+      "index": 8,
+      "experiment_name": "Wildtype_MeasurementValidation_DStat_17_t717h_FluxValidation_ATPM",
+      "experiment_type": "fluxvalidation",
+      "analysis_type": "FluxValidation",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__MeasurementValidation_DStat_17_t717h__Formate__Acetate"
+      ],
+      "solver": "StoichiometricSolverConfig"
+    },
+    {
+      "index": 9,
+      "experiment_name": "Wildtype_MeasurementValidation_DStat_18_t743h_FluxValidation_ATPM",
+      "experiment_type": "fluxvalidation",
+      "analysis_type": "FluxValidation",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__MeasurementValidation_DStat_18_t743h__Formate__Acetate"
+      ],
+      "solver": "StoichiometricSolverConfig"
+    }
+  ]
+}

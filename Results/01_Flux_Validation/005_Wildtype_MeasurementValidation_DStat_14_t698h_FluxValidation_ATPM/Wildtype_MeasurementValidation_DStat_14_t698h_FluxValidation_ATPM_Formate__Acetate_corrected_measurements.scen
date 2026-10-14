@@ -1,0 +1,40 @@
+{
+  "fluxes": {
+    "EX_for_e_REV": [
+      134.46408255795,
+      134.46408255795
+    ],
+    "EX_ac_e_FWD": [
+      28.3,
+      28.3
+    ],
+    "EX_co2_e_FWD": [
+      75.70455062644999,
+      75.70455062644999
+    ],
+    "EX_h2_e_FWD": [
+      16.5,
+      16.5
+    ],
+    "biomass": [
+      0.053,
+      0.053
+    ],
+    "EX_co2_e_REV": [
+      0.0,
+      0.0
+    ],
+    "EX_h2_e_REV": [
+      0.0,
+      0.0
+    ]
+  },
+  "pinned_reactions": [],
+  "description": "",
+  "objective_direction": "max",
+  "objective_coefficients": {},
+  "use_scenario_objective": false,
+  "reactions": {},
+  "constraints": [],
+  "version": 2
+}

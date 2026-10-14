@@ -1,0 +1,1241 @@
+[
+    {
+        "experiment_name": "Wildtype_Fitted_MeasurementValidation_DStat_12_t677h_MDF_Characterization",
+        "scenario_id": "Wildtype__Fitted_MeasurementValidation_DStat_12_t677h__Formate__Acetate",
+        "substrate": "Formate",
+        "product": "Acetate",
+        "diagnostics_environment": {
+            "substrate_reaction_ids": [
+                "EX_for_e_REV"
+            ],
+            "uptake_reactions_open_before": {
+                "EX_ca2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cl_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cobalt2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cu2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe3_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_h2o_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_h_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_k_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mg2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mobd_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_na1_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_nh4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_ni2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_pi_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_so4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_zn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                }
+            },
+            "bounds_changed": [
+                {
+                    "reaction_id": "EX_for_e_REV",
+                    "source": "substrates.Formate",
+                    "bounds_before": [
+                        0.0,
+                        0.0
+                    ],
+                    "bounds_after": [
+                        110.88430585764979,
+                        110.88430585764979
+                    ]
+                },
+                {
+                    "reaction_id": "EX_ac_e_FWD",
+                    "source": "products.Acetate",
+                    "bounds_before": [
+                        0.0,
+                        0.0
+                    ],
+                    "bounds_after": [
+                        24.9,
+                        24.9
+                    ]
+                },
+                {
+                    "reaction_id": "EX_co2_e_FWD",
+                    "source": "substrate_product_adjustments.Formate.Acetate",
+                    "bounds_before": [
+                        0.0,
+                        0.0
+                    ],
+                    "bounds_after": [
+                        59.00626569714992,
+                        59.00626569714992
+                    ]
+                },
+                {
+                    "reaction_id": "EX_h2_e_FWD",
+                    "source": "substrate_product_adjustments.Formate.Acetate",
+                    "bounds_before": [
+                        0.0,
+                        0.0
+                    ],
+                    "bounds_after": [
+                        6.7,
+                        6.7
+                    ]
+                },
+                {
+                    "reaction_id": "biomass",
+                    "source": "substrate_product_adjustments.Formate.Acetate",
+                    "bounds_before": [
+                        0.0,
+                        1000.0
+                    ],
+                    "bounds_after": [
+                        0.051,
+                        0.051
+                    ]
+                },
+                {
+                    "reaction_id": "ATPM",
+                    "source": "substrate_product_adjustments.Formate.Acetate",
+                    "bounds_before": [
+                        0.29,
+                        1000.0
+                    ],
+                    "bounds_after": [
+                        3.714233570420681,
+                        3.714233570420681
+                    ]
+                }
+            ],
+            "uptake_reactions_open_after": {
+                "EX_ca2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cl_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cobalt2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cu2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe3_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_for_e_REV": {
+                    "max_uptake_rate": 110.88430585764979,
+                    "bounds": [
+                        110.88430585764979,
+                        110.88430585764979
+                    ]
+                },
+                "EX_h2o_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_h_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_k_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mg2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mobd_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_na1_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_nh4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_ni2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_pi_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_so4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_zn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                }
+            },
+            "other_uptake_reactions_open_after": {
+                "EX_ca2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cl_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cobalt2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_cu2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_fe3_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_h2o_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_h_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_k_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mg2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_mobd_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_na1_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_nh4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_ni2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_pi_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_so4_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                },
+                "EX_zn2_e_REV": {
+                    "max_uptake_rate": 1000.0,
+                    "bounds": [
+                        0.0,
+                        1000.0
+                    ]
+                }
+            },
+            "reaction_ids_missing": []
+        },
+        "metrics": {
+            "carbon_atoms_substrate_total": 1,
+            "carbon_atoms_product": 2,
+            "max_theoretical_yield": 24.9,
+            "maximize_mdf_directly_after_fit_var_B": 2.3500545482811446,
+            "maximize_atpm_after_fit_ATPM": 3.714233570420681,
+            "maximize_mdf_at_fixed_max_atpm_var_B": 2.3500545482811446,
+            "execution_time_seconds": 298.25
+        },
+        "steps": [
+            {
+                "Step_Name": "maximize_mdf_directly_after_fit",
+                "Objective": "var_B",
+                "Objective_Direction": "max",
+                "Constraints": "[[['x_nadh_c', 1], ['x_nad_c', -1]], [-4.60517, 4.60517], 'nadh_nad_ratio', 'range']; [[['x_nadph_c', 1], ['x_nadp_c', -1]], [-4.60517, 4.60517], 'nadph_nadp_ratio', 'range']; [[['x_fdxrd_c', 1], ['x_fdxox_c', -1]], [-4.60517, 4.60517], 'fdxrd_fdxox_ratio', 'range']; [[['x_atp_c', 1], ['x_adp_c', -1]], [-4.60517, 4.60517], 'atp_adp_ratio', 'range']",
+                "Status": "Optimal",
+                "Objective_Value": 2.3500545482811446,
+                "MinForce": 2.3500545482811446,
+                "Biomass": 0.051,
+                "Product_Flux": 24.9,
+                "Substrate_Uptake_Realized": {
+                    "EX_for_e_REV": {
+                        "flux": 110.88430585764979,
+                        "uptake_rate": 110.88430585764979
+                    }
+                },
+                "ATPM": 3.714233570420681,
+                "Swaps_Required": "N/A",
+                "Solver_Status": null,
+                "Solver_Status_Name": null,
+                "Termination_Condition": null,
+                "Termination_Condition_Name": null,
+                "Solver_Message": "Termination status: Optimal",
+                "Solver_Error": null,
+                "LP_Seed_Objective": null,
+                "Retained_Objective_Fraction": null,
+                "Retained_Objective_Lower": null,
+                "Retained_Objective_Upper": null,
+                "Variability_Variables": null,
+                "Removed_Inactive_Reactions": null,
+                "Active_Reactions_Before": null,
+                "Active_Reactions_After": null,
+                "Floored_Reaction_Ranges": null,
+                "Active_Set_Source": null,
+                "FVA_Directions_Resolved_From_LP_Seed": null,
+                "LP_Seed_Active_Reactions": null,
+                "LP_Resolved_Thermodynamic_Pairs": null,
+                "LP_Unselected_Thermodynamic_Pairs": null,
+                "LP_Unselected_Direction_Override_Count": null,
+                "LP_Unselected_Direction_Overrides": null,
+                "Thermodynamic_Bidirectional_Pairs": null,
+                "Active_Set_Union_Seed_File": null,
+                "Active_Set_Union_Reactions": null,
+                "Active_Set_Union_Added_Reactions": null,
+                "Initialized_From_LP_Seed": null,
+                "Initialized_NLP_Variables": null,
+                "Clamped_NLP_Initial_Values": null,
+                "NLP_Multistart_Attempts": null,
+                "NLP_Multistart_Successes": null,
+                "NLP_Multistart_Selected_Attempt": null,
+                "NLP_Multistart_Seed": null,
+                "NLP_Multistart_Objectives": null,
+                "Solution_Load_Error": null,
+                "conc_co2_e": 1.0000000000000004e-06,
+                "conc_co2_p": 2.3436968838934237e-05,
+                "conc_co2_c": 0.002007173642900992,
+                "conc_for_e": 1.0000000000000004e-06,
+                "conc_for_p": 0.02,
+                "conc_for_c": 0.007749886505612495,
+                "conc_h2_e": 9.999999999999994e-08,
+                "conc_h2_p": 2.343696883893417e-06,
+                "conc_h2_c": 6.553489577958515e-05,
+                "conc_fdxrd_c": 9.999998140119275e-05,
+                "conc_fdxox_c": 1.0000000000000004e-06,
+                "conc_nadh_c": 0.002739453688660654,
+                "conc_nad_c": 0.02,
+                "conc_nadph_c": 0.02,
+                "conc_nadp_c": 0.0002000000371976218,
+                "conc_atp_c": 0.02,
+                "conc_adp_c": 0.0013608828044845208,
+                "conc_pi_c": 0.0005693358168762303,
+                "Post_Analyses": {
+                    "CVA_Results": {
+                        "h2_e": {
+                            "min": 1e-07,
+                            "max": 1.154e-05
+                        },
+                        "co2_e": {
+                            "min": 1e-06,
+                            "max": 0.00040151
+                        },
+                        "h2_c": {
+                            "min": 6.455e-05,
+                            "max": 7.67e-05
+                        },
+                        "co2_c": {
+                            "min": 0.00014937,
+                            "max": 0.00266895
+                        },
+                        "fdxrd_c": {
+                            "min": 9.849e-05,
+                            "max": 0.02
+                        },
+                        "fdxox_c": {
+                            "min": 1e-06,
+                            "max": 0.00020306
+                        },
+                        "nadh_c": {
+                            "min": 1e-06,
+                            "max": 0.00274205
+                        },
+                        "nad_c": {
+                            "min": 7.29e-06,
+                            "max": 0.02
+                        },
+                        "nadph_c": {
+                            "min": 5.6e-06,
+                            "max": 0.02
+                        },
+                        "nadp_c": {
+                            "min": 1e-06,
+                            "max": 0.00357367
+                        },
+                        "atp_c": {
+                            "min": 1.468e-05,
+                            "max": 0.02
+                        },
+                        "adp_c": {
+                            "min": 1e-06,
+                            "max": 0.00136217
+                        },
+                        "pi_c": {
+                            "min": 0.00056826,
+                            "max": 0.00300874
+                        },
+                        "co_c": {
+                            "min": 1e-08,
+                            "max": 1.12e-06
+                        },
+                        "for_e": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "for_c": {
+                            "min": 0.00043413,
+                            "max": 0.00775724
+                        }
+                    },
+                    "Metabolite_Ratios": {
+                        "NADH/NAD_Ratio": {
+                            "min": 0.13503861,
+                            "max": 0.1371026
+                        },
+                        "NADPH/NADP_Ratio": {
+                            "min": 5.59648072,
+                            "max": 99.9999814
+                        },
+                        "FDXrd/FDXox_Ratio": {
+                            "min": 98.49454184,
+                            "max": 99.9999814
+                        },
+                        "ATP/ADP_Ratio": {
+                            "min": 14.68241632,
+                            "max": 77.73858961
+                        },
+                        "FDXrd/NADH_Ratio": {
+                            "min": 0.03646903,
+                            "max": 20000.0
+                        }
+                    }
+                },
+                "CVA_Results": {
+                    "h2_e": {
+                        "min": 1e-07,
+                        "max": 1.154e-05
+                    },
+                    "co2_e": {
+                        "min": 1e-06,
+                        "max": 0.00040151
+                    },
+                    "h2_c": {
+                        "min": 6.455e-05,
+                        "max": 7.67e-05
+                    },
+                    "co2_c": {
+                        "min": 0.00014937,
+                        "max": 0.00266895
+                    },
+                    "fdxrd_c": {
+                        "min": 9.849e-05,
+                        "max": 0.02
+                    },
+                    "fdxox_c": {
+                        "min": 1e-06,
+                        "max": 0.00020306
+                    },
+                    "nadh_c": {
+                        "min": 1e-06,
+                        "max": 0.00274205
+                    },
+                    "nad_c": {
+                        "min": 7.29e-06,
+                        "max": 0.02
+                    },
+                    "nadph_c": {
+                        "min": 5.6e-06,
+                        "max": 0.02
+                    },
+                    "nadp_c": {
+                        "min": 1e-06,
+                        "max": 0.00357367
+                    },
+                    "atp_c": {
+                        "min": 1.468e-05,
+                        "max": 0.02
+                    },
+                    "adp_c": {
+                        "min": 1e-06,
+                        "max": 0.00136217
+                    },
+                    "pi_c": {
+                        "min": 0.00056826,
+                        "max": 0.00300874
+                    },
+                    "co_c": {
+                        "min": 1e-08,
+                        "max": 1.12e-06
+                    },
+                    "for_e": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "for_c": {
+                        "min": 0.00043413,
+                        "max": 0.00775724
+                    }
+                },
+                "Metabolite_Ratios": {
+                    "NADH/NAD_Ratio": {
+                        "min": 0.13503861,
+                        "max": 0.1371026
+                    },
+                    "NADPH/NADP_Ratio": {
+                        "min": 5.59648072,
+                        "max": 99.9999814
+                    },
+                    "FDXrd/FDXox_Ratio": {
+                        "min": 98.49454184,
+                        "max": 99.9999814
+                    },
+                    "ATP/ADP_Ratio": {
+                        "min": 14.68241632,
+                        "max": 77.73858961
+                    },
+                    "FDXrd/NADH_Ratio": {
+                        "min": 0.03646903,
+                        "max": 20000.0
+                    }
+                }
+            },
+            {
+                "Step_Name": "maximize_atpm_after_fit",
+                "Objective": "ATPM",
+                "Objective_Direction": "max",
+                "Constraints": "[[['x_nadh_c', 1], ['x_nad_c', -1]], [-4.60517, 4.60517], 'nadh_nad_ratio', 'range']; [[['x_nadph_c', 1], ['x_nadp_c', -1]], [-4.60517, 4.60517], 'nadph_nadp_ratio', 'range']; [[['x_fdxrd_c', 1], ['x_fdxox_c', -1]], [-4.60517, 4.60517], 'fdxrd_fdxox_ratio', 'range']; [[['x_atp_c', 1], ['x_adp_c', -1]], [-4.60517, 4.60517], 'atp_adp_ratio', 'range']",
+                "Status": "Optimal",
+                "Objective_Value": 3.714233570420681,
+                "MinForce": -1776.0,
+                "Biomass": 0.051,
+                "Product_Flux": 24.9,
+                "Substrate_Uptake_Realized": {
+                    "EX_for_e_REV": {
+                        "flux": 110.88430585764979,
+                        "uptake_rate": 110.88430585764979
+                    }
+                },
+                "ATPM": 3.714233570420681,
+                "Swaps_Required": "N/A",
+                "Solver_Status": null,
+                "Solver_Status_Name": null,
+                "Termination_Condition": null,
+                "Termination_Condition_Name": null,
+                "Solver_Message": "Termination status: Optimal",
+                "Solver_Error": null,
+                "LP_Seed_Objective": null,
+                "Retained_Objective_Fraction": null,
+                "Retained_Objective_Lower": null,
+                "Retained_Objective_Upper": null,
+                "Variability_Variables": null,
+                "Removed_Inactive_Reactions": null,
+                "Active_Reactions_Before": null,
+                "Active_Reactions_After": null,
+                "Floored_Reaction_Ranges": null,
+                "Active_Set_Source": null,
+                "FVA_Directions_Resolved_From_LP_Seed": null,
+                "LP_Seed_Active_Reactions": null,
+                "LP_Resolved_Thermodynamic_Pairs": null,
+                "LP_Unselected_Thermodynamic_Pairs": null,
+                "LP_Unselected_Direction_Override_Count": null,
+                "LP_Unselected_Direction_Overrides": null,
+                "Thermodynamic_Bidirectional_Pairs": null,
+                "Active_Set_Union_Seed_File": null,
+                "Active_Set_Union_Reactions": null,
+                "Active_Set_Union_Added_Reactions": null,
+                "Initialized_From_LP_Seed": null,
+                "Initialized_NLP_Variables": null,
+                "Clamped_NLP_Initial_Values": null,
+                "NLP_Multistart_Attempts": null,
+                "NLP_Multistart_Successes": null,
+                "NLP_Multistart_Selected_Attempt": null,
+                "NLP_Multistart_Seed": null,
+                "NLP_Multistart_Objectives": null,
+                "Solution_Load_Error": null,
+                "conc_co2_e": 1.0000000000000004e-06,
+                "conc_co2_p": 1.0000000000000004e-06,
+                "conc_co2_c": 1.0000000000000004e-06,
+                "conc_for_e": 1.0000000000000004e-06,
+                "conc_for_p": 1.0000000000000004e-06,
+                "conc_for_c": 1.0000000000000004e-06,
+                "conc_h2_e": 9.999999999999994e-08,
+                "conc_h2_p": 9.999999999999994e-08,
+                "conc_h2_c": 9.999999999999994e-08,
+                "conc_fdxrd_c": 1.0000000000000004e-06,
+                "conc_fdxox_c": 9.999998140119275e-05,
+                "conc_nadh_c": 1.0000000000000004e-06,
+                "conc_nad_c": 9.999998140119275e-05,
+                "conc_nadph_c": 1.0000000000000004e-06,
+                "conc_nadp_c": 9.999998140119257e-05,
+                "conc_atp_c": 1.0000000000000004e-06,
+                "conc_adp_c": 9.999998140119275e-05,
+                "conc_pi_c": 1.0000000000000004e-06,
+                "Post_Analyses": {
+                    "CVA_Results": {
+                        "h2_e": {
+                            "min": 1e-07,
+                            "max": 7.67e-05
+                        },
+                        "co2_e": {
+                            "min": 1e-06,
+                            "max": 0.00627
+                        },
+                        "h2_c": {
+                            "min": 1e-07,
+                            "max": 7.67e-05
+                        },
+                        "co2_c": {
+                            "min": 1e-06,
+                            "max": 0.00627
+                        },
+                        "fdxrd_c": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "fdxox_c": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "nadh_c": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "nad_c": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "nadph_c": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "nadp_c": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "atp_c": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "adp_c": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "pi_c": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "co_c": {
+                            "min": 1e-08,
+                            "max": 1e-05
+                        },
+                        "for_e": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "for_c": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        }
+                    },
+                    "Metabolite_Ratios": {
+                        "NADH/NAD_Ratio": {
+                            "min": 0.01,
+                            "max": 99.9999814
+                        },
+                        "NADPH/NADP_Ratio": {
+                            "min": 0.01,
+                            "max": 99.9999814
+                        },
+                        "FDXrd/FDXox_Ratio": {
+                            "min": 0.01,
+                            "max": 99.9999814
+                        },
+                        "ATP/ADP_Ratio": {
+                            "min": 0.01,
+                            "max": 99.9999814
+                        },
+                        "FDXrd/NADH_Ratio": {
+                            "min": 5e-05,
+                            "max": 20000.0
+                        }
+                    }
+                },
+                "CVA_Results": {
+                    "h2_e": {
+                        "min": 1e-07,
+                        "max": 7.67e-05
+                    },
+                    "co2_e": {
+                        "min": 1e-06,
+                        "max": 0.00627
+                    },
+                    "h2_c": {
+                        "min": 1e-07,
+                        "max": 7.67e-05
+                    },
+                    "co2_c": {
+                        "min": 1e-06,
+                        "max": 0.00627
+                    },
+                    "fdxrd_c": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "fdxox_c": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "nadh_c": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "nad_c": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "nadph_c": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "nadp_c": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "atp_c": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "adp_c": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "pi_c": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "co_c": {
+                        "min": 1e-08,
+                        "max": 1e-05
+                    },
+                    "for_e": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "for_c": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    }
+                },
+                "Metabolite_Ratios": {
+                    "NADH/NAD_Ratio": {
+                        "min": 0.01,
+                        "max": 99.9999814
+                    },
+                    "NADPH/NADP_Ratio": {
+                        "min": 0.01,
+                        "max": 99.9999814
+                    },
+                    "FDXrd/FDXox_Ratio": {
+                        "min": 0.01,
+                        "max": 99.9999814
+                    },
+                    "ATP/ADP_Ratio": {
+                        "min": 0.01,
+                        "max": 99.9999814
+                    },
+                    "FDXrd/NADH_Ratio": {
+                        "min": 5e-05,
+                        "max": 20000.0
+                    }
+                }
+            },
+            {
+                "Step_Name": "maximize_mdf_at_fixed_max_atpm",
+                "Objective": "var_B",
+                "Objective_Direction": "max",
+                "Constraints": "['ATPM', 3.714233570420681, 'from_maximize_atpm_after_fit', 'eq']; [[['x_nadh_c', 1], ['x_nad_c', -1]], [-4.60517, 4.60517], 'nadh_nad_ratio', 'range']; [[['x_nadph_c', 1], ['x_nadp_c', -1]], [-4.60517, 4.60517], 'nadph_nadp_ratio', 'range']; [[['x_fdxrd_c', 1], ['x_fdxox_c', -1]], [-4.60517, 4.60517], 'fdxrd_fdxox_ratio', 'range']; [[['x_atp_c', 1], ['x_adp_c', -1]], [-4.60517, 4.60517], 'atp_adp_ratio', 'range']",
+                "Status": "Optimal",
+                "Objective_Value": 2.3500545482811446,
+                "MinForce": 2.3500545482811446,
+                "Biomass": 0.051,
+                "Product_Flux": 24.9,
+                "Substrate_Uptake_Realized": {
+                    "EX_for_e_REV": {
+                        "flux": 110.88430585764979,
+                        "uptake_rate": 110.88430585764979
+                    }
+                },
+                "ATPM": 3.714233570420681,
+                "Swaps_Required": "N/A",
+                "Solver_Status": null,
+                "Solver_Status_Name": null,
+                "Termination_Condition": null,
+                "Termination_Condition_Name": null,
+                "Solver_Message": "Termination status: Optimal",
+                "Solver_Error": null,
+                "LP_Seed_Objective": null,
+                "Retained_Objective_Fraction": null,
+                "Retained_Objective_Lower": null,
+                "Retained_Objective_Upper": null,
+                "Variability_Variables": null,
+                "Removed_Inactive_Reactions": null,
+                "Active_Reactions_Before": null,
+                "Active_Reactions_After": null,
+                "Floored_Reaction_Ranges": null,
+                "Active_Set_Source": null,
+                "FVA_Directions_Resolved_From_LP_Seed": null,
+                "LP_Seed_Active_Reactions": null,
+                "LP_Resolved_Thermodynamic_Pairs": null,
+                "LP_Unselected_Thermodynamic_Pairs": null,
+                "LP_Unselected_Direction_Override_Count": null,
+                "LP_Unselected_Direction_Overrides": null,
+                "Thermodynamic_Bidirectional_Pairs": null,
+                "Active_Set_Union_Seed_File": null,
+                "Active_Set_Union_Reactions": null,
+                "Active_Set_Union_Added_Reactions": null,
+                "Initialized_From_LP_Seed": null,
+                "Initialized_NLP_Variables": null,
+                "Clamped_NLP_Initial_Values": null,
+                "NLP_Multistart_Attempts": null,
+                "NLP_Multistart_Successes": null,
+                "NLP_Multistart_Selected_Attempt": null,
+                "NLP_Multistart_Seed": null,
+                "NLP_Multistart_Objectives": null,
+                "Solution_Load_Error": null,
+                "conc_co2_e": 1.0000000000000004e-06,
+                "conc_co2_p": 2.3436968838934237e-05,
+                "conc_co2_c": 0.002007173642900992,
+                "conc_for_e": 1.0000000000000004e-06,
+                "conc_for_p": 0.02,
+                "conc_for_c": 0.007749886505612495,
+                "conc_h2_e": 9.999999999999994e-08,
+                "conc_h2_p": 2.343696883893417e-06,
+                "conc_h2_c": 6.553489577958515e-05,
+                "conc_fdxrd_c": 9.999998140119275e-05,
+                "conc_fdxox_c": 1.0000000000000004e-06,
+                "conc_nadh_c": 0.002739453688660654,
+                "conc_nad_c": 0.02,
+                "conc_nadph_c": 0.02,
+                "conc_nadp_c": 0.0002000000371976218,
+                "conc_atp_c": 0.02,
+                "conc_adp_c": 0.0013608828044845208,
+                "conc_pi_c": 0.0005693358168762303,
+                "Post_Analyses": {
+                    "CVA_Results": {
+                        "h2_e": {
+                            "min": 1e-07,
+                            "max": 1.154e-05
+                        },
+                        "co2_e": {
+                            "min": 1e-06,
+                            "max": 0.00040151
+                        },
+                        "h2_c": {
+                            "min": 6.455e-05,
+                            "max": 7.67e-05
+                        },
+                        "co2_c": {
+                            "min": 0.00014937,
+                            "max": 0.00266895
+                        },
+                        "fdxrd_c": {
+                            "min": 9.849e-05,
+                            "max": 0.02
+                        },
+                        "fdxox_c": {
+                            "min": 1e-06,
+                            "max": 0.00020306
+                        },
+                        "nadh_c": {
+                            "min": 1e-06,
+                            "max": 0.00274205
+                        },
+                        "nad_c": {
+                            "min": 7.29e-06,
+                            "max": 0.02
+                        },
+                        "nadph_c": {
+                            "min": 5.6e-06,
+                            "max": 0.02
+                        },
+                        "nadp_c": {
+                            "min": 1e-06,
+                            "max": 0.00357367
+                        },
+                        "atp_c": {
+                            "min": 1.468e-05,
+                            "max": 0.02
+                        },
+                        "adp_c": {
+                            "min": 1e-06,
+                            "max": 0.00136217
+                        },
+                        "pi_c": {
+                            "min": 0.00056826,
+                            "max": 0.00300874
+                        },
+                        "co_c": {
+                            "min": 1e-08,
+                            "max": 1.12e-06
+                        },
+                        "for_e": {
+                            "min": 1e-06,
+                            "max": 0.02
+                        },
+                        "for_c": {
+                            "min": 0.00043413,
+                            "max": 0.00775724
+                        }
+                    },
+                    "Metabolite_Ratios": {
+                        "NADH/NAD_Ratio": {
+                            "min": 0.13503861,
+                            "max": 0.1371026
+                        },
+                        "NADPH/NADP_Ratio": {
+                            "min": 5.59648072,
+                            "max": 99.9999814
+                        },
+                        "FDXrd/FDXox_Ratio": {
+                            "min": 98.49454184,
+                            "max": 99.9999814
+                        },
+                        "ATP/ADP_Ratio": {
+                            "min": 14.68241632,
+                            "max": 77.73858953
+                        },
+                        "FDXrd/NADH_Ratio": {
+                            "min": 0.03646903,
+                            "max": 20000.0
+                        }
+                    }
+                },
+                "CVA_Results": {
+                    "h2_e": {
+                        "min": 1e-07,
+                        "max": 1.154e-05
+                    },
+                    "co2_e": {
+                        "min": 1e-06,
+                        "max": 0.00040151
+                    },
+                    "h2_c": {
+                        "min": 6.455e-05,
+                        "max": 7.67e-05
+                    },
+                    "co2_c": {
+                        "min": 0.00014937,
+                        "max": 0.00266895
+                    },
+                    "fdxrd_c": {
+                        "min": 9.849e-05,
+                        "max": 0.02
+                    },
+                    "fdxox_c": {
+                        "min": 1e-06,
+                        "max": 0.00020306
+                    },
+                    "nadh_c": {
+                        "min": 1e-06,
+                        "max": 0.00274205
+                    },
+                    "nad_c": {
+                        "min": 7.29e-06,
+                        "max": 0.02
+                    },
+                    "nadph_c": {
+                        "min": 5.6e-06,
+                        "max": 0.02
+                    },
+                    "nadp_c": {
+                        "min": 1e-06,
+                        "max": 0.00357367
+                    },
+                    "atp_c": {
+                        "min": 1.468e-05,
+                        "max": 0.02
+                    },
+                    "adp_c": {
+                        "min": 1e-06,
+                        "max": 0.00136217
+                    },
+                    "pi_c": {
+                        "min": 0.00056826,
+                        "max": 0.00300874
+                    },
+                    "co_c": {
+                        "min": 1e-08,
+                        "max": 1.12e-06
+                    },
+                    "for_e": {
+                        "min": 1e-06,
+                        "max": 0.02
+                    },
+                    "for_c": {
+                        "min": 0.00043413,
+                        "max": 0.00775724
+                    }
+                },
+                "Metabolite_Ratios": {
+                    "NADH/NAD_Ratio": {
+                        "min": 0.13503861,
+                        "max": 0.1371026
+                    },
+                    "NADPH/NADP_Ratio": {
+                        "min": 5.59648072,
+                        "max": 99.9999814
+                    },
+                    "FDXrd/FDXox_Ratio": {
+                        "min": 98.49454184,
+                        "max": 99.9999814
+                    },
+                    "ATP/ADP_Ratio": {
+                        "min": 14.68241632,
+                        "max": 77.73858953
+                    },
+                    "FDXrd/NADH_Ratio": {
+                        "min": 0.03646903,
+                        "max": 20000.0
+                    }
+                }
+            }
+        ],
+        "status": "Success"
+    }
+]

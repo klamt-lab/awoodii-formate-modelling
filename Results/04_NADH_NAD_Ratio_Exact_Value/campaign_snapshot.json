@@ -1,0 +1,19 @@
+{
+  "campaign_name": "04_NADH_NAD_Ratio_Exact_Value",
+  "output_dir": "/home/jasmin/Documents/Publication_Repositories/awoodii-formate-modelling/Results/04_NADH_NAD_Ratio_Exact_Value",
+  "created_utc": "2026-10-13T17:12:21.242249+00:00",
+  "experiment_count": 1,
+  "experiments": [
+    {
+      "index": 0,
+      "experiment_name": "Wildtype_Fitted_MeasurementValidation_DStat_17_t717h_formate_feed_NADH_NAD_Ratio_Characterization",
+      "experiment_type": "Characterization",
+      "analysis_type": "Characterization",
+      "n_scenarios": 1,
+      "scenario_ids": [
+        "Wildtype__Fitted_MeasurementValidation_DStat_17_t717h_formate_feed__Formate__Acetate"
+      ],
+      "solver": "ThermoSolverCPLEXConfig"
+    }
+  ]
+}

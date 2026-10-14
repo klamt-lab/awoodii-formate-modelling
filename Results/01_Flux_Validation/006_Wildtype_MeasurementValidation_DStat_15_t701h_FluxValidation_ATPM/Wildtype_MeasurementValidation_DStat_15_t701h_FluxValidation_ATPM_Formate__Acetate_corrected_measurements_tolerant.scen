@@ -1,0 +1,40 @@
+{
+  "fluxes": {
+    "EX_for_e_REV": [
+      157.5640725579502,
+      157.5640925579502
+    ],
+    "EX_ac_e_FWD": [
+      32.69999,
+      32.700010000000006
+    ],
+    "EX_co2_e_FWD": [
+      90.00454062645007,
+      90.00456062645007
+    ],
+    "EX_h2_e_FWD": [
+      21.99999,
+      22.00001
+    ],
+    "biomass": [
+      0.052989999999999995,
+      0.05301
+    ],
+    "EX_co2_e_REV": [
+      -1e-05,
+      1e-05
+    ],
+    "EX_h2_e_REV": [
+      -1e-05,
+      1e-05
+    ]
+  },
+  "pinned_reactions": [],
+  "description": "Tolerant export: flux bounds widened by +/- 1e-05; bounds within +/- 1e-06 are centered on zero before widening.",
+  "objective_direction": "max",
+  "objective_coefficients": {},
+  "use_scenario_objective": false,
+  "reactions": {},
+  "constraints": [],
+  "version": 2
+}

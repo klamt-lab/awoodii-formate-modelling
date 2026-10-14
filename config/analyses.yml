@@ -1,0 +1,214 @@
+# --- INDIVIDUAL COFACTOR RATIO CONSTRAINTS ---
+const_nadh_nad_ratio: &const_nadh_nad_ratio
+  - - ['x_nadh_c', 1]
+    - ['x_nad_c', -1]
+  - [-4.60517, 4.60517] # NADH/NAD: [log(0.01), log(100)]; NAD/NADH: [log(0.01), log(100)]
+  - 'nadh_nad_ratio' 
+  - 'range'
+
+const_nadph_nadp_ratio: &const_nadph_nadp_ratio
+  - - ['x_nadph_c', 1]
+    - ['x_nadp_c', -1]
+  - [-4.60517, 4.60517] # NADPH/NADP: [log(0.01), log(100)]; NADP/NADPH: [log(0.01), log(100)]
+  - 'nadph_nadp_ratio' 
+  - 'range'
+
+const_fdx_ratio: &const_fdx_ratio
+  - - ['x_fdxrd_c', 1]
+    - ['x_fdxox_c', -1]
+  - [-4.60517, 4.60517] # Range: [log(0.01), log(100)]
+  - 'fdxrd_fdxox_ratio' 
+  - 'range'
+
+const_atp_adp_ratio: &const_atp_adp_ratio
+  - - ['x_atp_c', 1]
+    - ['x_adp_c', -1]
+  - [-4.60517, 4.60517] # Range: [log(0.01), log(100)]
+  - 'atp_adp_ratio' 
+  - 'range'
+
+
+# --- ANALYSES WORKFLOWS ---
+analyses:
+
+  FluxValidation_ATPM:
+    type: "FluxValidation"
+    solver: "stoichiometric"
+    solver_settings:
+      solver_name: "cplex"
+    optimization_step:
+      name: "optATPM"
+      objective_var_ids: ["ATPM"]
+      objective_multipliers: [1.0]
+      objective_direction: "max"
+      constraints: []
+    generate_corrected_scenario_file: true
+    generate_fitted_environment_yaml: true
+    analysis_params:
+      num_numerical_retries: 3
+      excel_output: true
+      generate_cnapy_files: true
+      csv_output: true
+
+  MDF_Characterization:
+    Characterization:
+      solver: "thermo"
+      solver_settings:
+        with_loop_constraints: true
+      analysis_params:
+        thermo_adjustments: 
+          dG0: 
+            - {target: "LDAPAT_FWD", mode: set,  value: 0}      # Set to 0 to make positive MDF possible due to unreasonable dG0 
+            - {target: "LDAPAT_REV", mode: set,  value: 0}
+            - {target: "FORtex_FWD", mode: set,  value: -1000}  # Taken out of calculations since the transport of formate into cell is unknown. There is still the tpp reaction with 0 dG0 that guarantees that a concentration gradient is established.
+            - {target: "FORtex_REV", mode: set,  value:  1000}
+            - {target: "PGCD", mode: "set", value: 0}           # See publication for reasoning. 
+        min_growth: 0.0
+        min_mdf: -100
+        num_numerical_retries: 10
+        csv_output: true
+        excel_output: true
+        generate_cnapy_files: true
+        save_raw_solutions: true
+
+        key_metabolites:  ["co2_e", "co2_p", "co2_c", "for_e", "for_p", "for_c", "h2_e", "h2_p", "h2_c", "fdxrd_c", "fdxox_c", "nadh_c", "nad_c", "nadph_c", "nadp_c", "atp_c", "adp_c", "pi_c"]
+        key_reactions: []
+        run_cva: 
+          metabolites_to_check: ["h2_e", "co2_e", "h2_c", "co2_c", "fdxrd_c", "fdxox_c", "nadh_c", "nad_c", "nadph_c", "nadp_c", "atp_c", "adp_c", "pi_c", "co_c", "for_e", "for_c"]
+        run_metabolite_ratios: 
+          ratios:
+            - { name: "NADH/NAD_Ratio", metabolites: ["nadh_c", "nad_c"], multipliers: [1, -1]}
+            - { name: "NADPH/NADP_Ratio", metabolites: ["nadph_c", "nadp_c"], multipliers: [1, -1]}
+            - { name: "FDXrd/FDXox_Ratio", metabolites: ["fdxrd_c", "fdxox_c"], multipliers: [1, -1]}
+            - { name: "ATP/ADP_Ratio", metabolites: ["atp_c", "adp_c"], multipliers: [1, -1] }
+            - { name: "FDXrd/NADH_Ratio", metabolites: ["fdxrd_c", "nadh_c"], multipliers: [1, -1]}
+      optimization_steps:
+        - name: "maximize_mdf_directly_after_fit"
+          objective_var_ids: ["var_B"]
+          objective_direction: "max"
+          constraints: 
+            - *const_nadh_nad_ratio
+            - *const_nadph_nadp_ratio
+            - *const_fdx_ratio
+            - *const_atp_adp_ratio
+        - name: "maximize_atpm_after_fit"
+          objective_var_ids: ["ATPM"]
+          objective_direction: "max"
+          constraints: 
+            - *const_nadh_nad_ratio
+            - *const_nadph_nadp_ratio
+            - *const_fdx_ratio
+            - *const_atp_adp_ratio
+        - name: "maximize_mdf_at_fixed_max_atpm"
+          objective_var_ids: ["var_B"]
+          objective_direction: "max"
+          constraints:
+            - use_result_from: "maximize_atpm_after_fit"
+              objective_var: "ATPM"
+              fraction: 1.0
+              type: "eq"
+            - *const_nadh_nad_ratio
+            - *const_nadph_nadp_ratio
+            - *const_fdx_ratio
+            - *const_atp_adp_ratio
+
+
+  MDF_Bottlenecks_NADH_NAD_Lower_Bound_Scan_PGCD0:
+    VariableScan:
+      solver: "thermo"
+      solver_settings:
+        with_loop_constraints: true
+
+      # Physical NADH/NAD lower bounds: 0.10 to 0.50 in steps of 0.05.
+      # The constraint uses ln(NADH) - ln(NAD), so supply ln(ratio).
+      scan_axis:
+        type: "constraint"
+        target: "nadh_nad_ratio"
+        constraint_value_mode: "range_lower"
+        label: "ln(NADH/NAD lower bound)"
+        scan_values:
+          - -2.302585092994045  # ln(0.10)
+          - -1.897119984885881  # ln(0.15)
+          - -1.609437912434100  # ln(0.20)
+          - -1.386294361119891  # ln(0.25)
+          - -1.203972804325936  # ln(0.30)
+          - -1.049822124498678  # ln(0.35)
+          - -0.916290731874155  # ln(0.40)
+          - -0.798507696217772  # ln(0.45)
+          - -0.693147180559945  # ln(0.50)
+
+      objective_var_ids: ["var_B"]
+      objective_direction: "max"
+      base_constraints:
+        - *const_nadh_nad_ratio
+        - *const_nadph_nadp_ratio
+        - *const_fdx_ratio
+        - *const_atp_adp_ratio
+
+      # Match MDF_Bottlenecks, including its CVA, ratio, and bottleneck
+      # post-analyses, so the scan can use the same visualization content.
+      analysis_params:
+        thermo_adjustments:
+          dG0:
+            - {target: "LDAPAT_FWD", mode: "set", value: 0}       # Set to 0 to make positive MDF possible due to unreasonable dG0 
+            - {target: "LDAPAT_REV", mode: "set", value: 0}
+            - {target: "FORtex_FWD", mode: "set", value: -1000}   # Taken out of calculations since the transport of formate into cell is unknown. There is still the tpp reaction with 0 dG0 that guarantees that a concentration gradient is established.
+            - {target: "FORtex_REV", mode: "set", value: 1000}
+            - {target: "PGCD", mode: "set", value: 0}             # See publication for reasoning. 
+        min_growth: 0.0
+        min_mdf: -1000
+        num_numerical_retries: 10
+        csv_output: true
+        excel_output: true
+        generate_cnapy_files: true
+        save_raw_solutions: true
+        key_reactions: []
+        key_metabolites: ["co2_e", "co2_p", "co2_c", "for_e", "for_p", "for_c", "h2_e", "h2_p", "h2_c", "fdxrd_c", "fdxox_c", "nadh_c", "nad_c", "nadph_c", "nadp_c", "atp_c", "adp_c", "pi_c"]
+        run_bottleneck_analysis:
+          dG0_change: 0.5
+          test_active_reactions_only: false
+        run_cva:
+          metabolites_to_check: ["h2_e", "co2_e", "h2_c", "co2_c", "fdxrd_c", "fdxox_c", "nadh_c", "nad_c", "nadph_c", "nadp_c", "atp_c", "adp_c", "pi_c", "co_c", "for_e", "for_c"]
+        run_metabolite_ratios:
+          ratios:
+            - {name: "NAD/NADH_Ratio", metabolites: ["nad_c", "nadh_c"], multipliers: [1, -1]}
+            - {name: "NADH/NAD_Ratio", metabolites: ["nadh_c", "nad_c"], multipliers: [1, -1]}
+            - {name: "NADPH/NADP_Ratio", metabolites: ["nadph_c", "nadp_c"], multipliers: [1, -1]}
+            - {name: "FDXrd/FDXox_Ratio", metabolites: ["fdxrd_c", "fdxox_c"], multipliers: [1, -1]}
+            - {name: "ATP/ADP_Ratio", metabolites: ["atp_c", "adp_c"], multipliers: [1, -1]}
+            - {name: "FDXrd/NADH_Ratio", metabolites: ["fdxrd_c", "nadh_c"], multipliers: [1, -1]}
+
+
+  NADH_NAD_Ratio_Characterization:
+    Characterization:
+      solver: "thermo"
+      solver_settings:
+        with_loop_constraints: true
+      analysis_params:
+        thermo_adjustments: 
+          dG0: 
+            - {target: "LDAPAT_FWD", mode: set,  value: 0}      # Set to 0 to make positive MDF possible due to unreasonable dG0 
+            - {target: "LDAPAT_REV", mode: set,  value: 0}
+            - {target: "FORtex_FWD", mode: set,  value: -1000}  # Taken out of calculations since the transport of formate into cell is unknown. There is still the tpp reaction with 0 dG0 that guarantees that a concentration gradient is established.
+            - {target: "FORtex_REV", mode: set,  value:  1000}
+            - {target: "PGCD", mode: "set", value: 0}           # See publication for reasoning.
+        min_growth: 0.0
+        min_mdf: -100
+        num_numerical_retries: 10
+        csv_output: true
+        excel_output: true
+        generate_cnapy_files: true
+        save_raw_solutions: true
+
+      optimization_steps:
+        - name: "maximize_nadh_nad_ratio"
+          objective_var_ids: ['x_nadh_c', 'x_nad_c']
+          objective_multipliers: [1, -1]
+          objective_direction: "max"
+          constraints: 
+            - *const_nadh_nad_ratio
+            - *const_nadph_nadp_ratio
+            - *const_fdx_ratio
+            - *const_atp_adp_ratio
+            - ['var_B', 0.0, 'mdf_at_zero', 'eq']  # Constraint to get exact Ratio at MDF=0
+        

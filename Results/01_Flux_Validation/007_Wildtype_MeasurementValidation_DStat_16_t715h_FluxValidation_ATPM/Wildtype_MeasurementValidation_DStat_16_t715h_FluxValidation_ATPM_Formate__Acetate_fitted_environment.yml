@@ -1,0 +1,18 @@
+environments:
+  Fitted_MeasurementValidation_DStat_16_t715h:
+    concentrations_file: concentrations_awoodii_h2_co2_medium.json
+    substrates:
+      Formate:
+      - {id: EX_for_e_REV, lb: 196.1, ub: 196.1}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 33.96150727297518, ub: 33.96150727297518}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+        - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+        - {id: EX_co2_e_FWD, lb: 125.97670763705004, ub: 125.97670763705004}
+        - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+        - {id: EX_h2_e_FWD, lb: 55.4, ub: 55.4}
+        - {id: biomass, lb: 0.054, ub: 0.054}
+        - {id: ATPM, lb: 6.234778925553307, ub: 6.234778925553307}
+    concentration_adjustments: {}

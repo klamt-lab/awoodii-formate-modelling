@@ -1,0 +1,154 @@
+# Supplied columns: µ=D [h-1], then qForm, qAce, qCO2, qH2
+# [mmol g-1 h-1]. Only complete conditions and the explicit average are used.
+environments:
+  # Raw measurements corresponding to the ten fitted scan conditions.
+  MeasurementValidation_DStat_09_average:
+    concentrations_file: "concentrations_awoodii_h2_co2_medium.json"
+    substrates:
+      Formate:
+        - {id: EX_for_e_REV, lb: 0.0, ub: 400.0, measured_value: 102.5}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 22.8}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+          - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_co2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 41.7}
+          - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_h2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 4.1}
+          - {id: biomass, lb: 0.0, ub: 1.0, measured_value: 0.053}
+  MeasurementValidation_DStat_10_t668h:
+    concentrations_file: "concentrations_awoodii_h2_co2_medium.json"
+    substrates:
+      Formate:
+        - {id: EX_for_e_REV, lb: 0.0, ub: 400.0, measured_value: 115.8}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 24.1}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+          - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_co2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 48.6}
+          - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_h2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 5.7}
+          - {id: biomass, lb: 0.0, ub: 1.0, measured_value: 0.051}
+  MeasurementValidation_DStat_11_t674h:
+    concentrations_file: "concentrations_awoodii_h2_co2_medium.json"
+    substrates:
+      Formate:
+        - {id: EX_for_e_REV, lb: 0.0, ub: 400.0, measured_value: 118.9}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 24.6}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+          - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_co2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 50.1}
+          - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_h2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 6.2}
+          - {id: biomass, lb: 0.0, ub: 1.0, measured_value: 0.051}
+  MeasurementValidation_DStat_12_t677h:
+    concentrations_file: "concentrations_awoodii_h2_co2_medium.json"
+    substrates:
+      Formate:
+        - {id: EX_for_e_REV, lb: 0.0, ub: 400.0, measured_value: 121.5}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 24.9}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+          - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_co2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 51.7}
+          - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_h2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 6.7}
+          - {id: biomass, lb: 0.0, ub: 1.0, measured_value: 0.051}
+  MeasurementValidation_DStat_13_t692h:
+    concentrations_file: "concentrations_awoodii_h2_co2_medium.json"
+    substrates:
+      Formate:
+        - {id: EX_for_e_REV, lb: 0.0, ub: 400.0, measured_value: 137.4}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 27.9}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+          - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_co2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 57.5}
+          - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_h2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 10.9}
+          - {id: biomass, lb: 0.0, ub: 1.0, measured_value: 0.053}
+  MeasurementValidation_DStat_14_t698h:
+    concentrations_file: "concentrations_awoodii_h2_co2_medium.json"
+    substrates:
+      Formate:
+        - {id: EX_for_e_REV, lb: 0.0, ub: 400.0, measured_value: 157.0}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 28.3}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+          - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_co2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 66.3}
+          - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_h2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 16.5}
+          - {id: biomass, lb: 0.0, ub: 1.0, measured_value: 0.053}
+  MeasurementValidation_DStat_15_t701h:
+    concentrations_file: "concentrations_awoodii_h2_co2_medium.json"
+    substrates:
+      Formate:
+        - {id: EX_for_e_REV, lb: 0.0, ub: 400.0, measured_value: 168.5}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 32.7}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+          - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_co2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 72.7}
+          - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_h2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 22.0}
+          - {id: biomass, lb: 0.0, ub: 1.0, measured_value: 0.053}
+  MeasurementValidation_DStat_16_t715h:
+    concentrations_file: "concentrations_awoodii_h2_co2_medium.json"
+    substrates:
+      Formate:
+        - {id: EX_for_e_REV, lb: 0.0, ub: 400.0, measured_value: 196.1}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 34.3}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+          - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_co2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 89.9}
+          - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_h2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 55.4}
+          - {id: biomass, lb: 0.0, ub: 1.0, measured_value: 0.054}
+  MeasurementValidation_DStat_17_t717h:
+    concentrations_file: "concentrations_awoodii_h2_co2_medium.json"
+    substrates:
+      Formate:
+        - {id: EX_for_e_REV, lb: 0.0, ub: 400.0, measured_value: 236.4}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 42.0}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+          - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_co2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 119.2}
+          - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_h2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 76.1}
+          - {id: biomass, lb: 0.0, ub: 1.0, measured_value: 0.054}
+  MeasurementValidation_DStat_18_t743h:
+    concentrations_file: "concentrations_awoodii_h2_co2_medium.json"
+    substrates:
+      Formate:
+        - {id: EX_for_e_REV, lb: 0.0, ub: 400.0, measured_value: 344.2}
+    products:
+      Acetate: {id: EX_ac_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 43.7}
+    substrate_product_adjustments:
+      Formate:
+        Acetate:
+          - {id: EX_co2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_co2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 155.8}
+          - {id: EX_h2_e_REV, lb: 0.0, ub: 0.0}
+          - {id: EX_h2_e_FWD, lb: 0.0, ub: 1000.0, measured_value: 151.0}
+          - {id: biomass, lb: 0.0, ub: 1.0, measured_value: 0.054}
